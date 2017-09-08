@@ -1,0 +1,636 @@
+body {
+    font-size:13px;
+}
+a {
+    color:#292f34;
+    font-weight:bold;
+    transition: color .15s ease;
+}
+a:hover {
+    color:#24a0ed;
+    text-decoration:none;
+}
+
+/* Helper modal */
+.notice {
+    padding:0.4rem 0.75rem;
+    position:absolute;
+    cursor: pointer;
+    right:0;
+    top:0;
+}
+
+/* Styling buttons/inputs */
+input[type="text"] {
+    box-shadow: none;
+    border-color: #c3cfd6;
+    transition: border-color .15s ease,color .15s ease
+}
+input[type="text"]:hover {
+    border-color: #738491;
+}
+.nav-link {
+    font-weight: normal;
+}
+.nav-pills .nav-link.active, .btn-primary, .btn-primary:visited, .btn-primary:active, .btn-primary:focus {
+    border-color: #343434;
+    background-color: #343434;
+    box-shadow: 2px 1.5px 0 rgba(0,0,0,.12), 0 0 4px 0 rgba(0,0,0,.12);
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+}
+.btn-primary:hover {
+    border-color: #939393;
+    background-color: #939393;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+/* Flairs */
+.flair-parent {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+}
+.flair-parent:hover {
+    background-color: #F5F8F9;
+}
+
+.flair {
+    padding: 0;
+    border: none;
+    color: #98abba;
+    min-width: 24px;
+    max-height: 24px;
+    margin-left: 5px;
+    line-height: 24px;
+    text-indent: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat
+}
+
+/* Total War series game icons */
+.flair-game-icon { background-image: url('static/flairs-games.png'); width: auto }
+.flair-game-arena { background-position: 0 0 }
+.flair-game-attila { background-position: 0 -24px; text-indent: 35px }
+.flair-game-empire { background-position: 0 -48px }
+.flair-game-medieval2 { background-position: 0 -72px; text-indent: 60px }
+.flair-game-medieval { background-position: 0 -96px; text-indent: 40px }
+.flair-game-napoleon { background-position: 0 -120px }
+.flair-game-rome2 { background-position: 0 -144px; text-indent: 50px }
+.flair-game-rome { background-position: 0 -168px }
+.flair-game-shogun2 { background-position: 0 -192px; text-indent: 50px }
+.flair-game-shogun { background-position: 0 -216px }
+.flair-game-totalwar { background-position: 0 -240px }
+.flair-game-warhammer2 { background-position: 0 -264px; text-indent: 65px }
+.flair-game-warhammer { background-position: 0 -288px; text-indent: 40px }
+
+/* Warhammer Playable factions */
+.flair-wh-playable { background-image: url('static/flairs-wh-playable.png') }
+.flair-wh-argwylon { background-position: 0 0; }
+.flair-wh-beastmen { background-position: 0 -24px; }
+.flair-wh-bloodyhandz { background-position: 0 -48px; }
+.flair-wh-bordeleaux { background-position: 0 -72px; }
+.flair-wh-bretonnia { background-position: 0 -96px; }
+.flair-wh-carcassonne { background-position: 0 -120px; }
+.flair-wh-clanangrund { background-position: 0 -144px; }
+.flair-wh-crookedmoon { background-position: 0 -168px; }
+.flair-wh-dwarfs { background-position: 0 -192px; }
+.flair-wh-empire { background-position: 0 -216px; }
+.flair-wh-greenskins { background-position: 0 -240px; }
+.flair-wh-norsca { background-position: 0 -264px; }
+.flair-wh-vampirecounts { background-position: 0 -288px; }
+.flair-wh-voncarstein { background-position: 0 -312px; }
+.flair-wh-warherdoftheshadowgrave { background-position: 0 -336px; }
+.flair-wh-warriorsofchaos { background-position: 0 -360px; }
+.flair-wh-wintertooth { background-position: 0 -384px; }
+.flair-wh-woodelves { background-position: 0 -408px; }
+
+/* Warhammer Minor factions */
+.flair-wh-minor { background-image: url('static/flairs-wh-minor.png') }
+.flair-wh-aesling { background-position: 0 0; }
+.flair-wh-artois { background-position: 0 -24px; }
+.flair-wh-averland { background-position: 0 -48px; }
+.flair-wh-baersonling { background-position: 0 -72px; }
+.flair-wh-barakvarr { background-position: 0 -96px; }
+.flair-wh-bastonne { background-position: 0 -120px; }
+.flair-wh-bjornling { background-position: 0 -144px; }
+.flair-wh-blackvenom { background-position: 0 -168px; }
+.flair-wh-bloodyspearz { background-position: 0 -192px; }
+.flair-wh-borderprinces { background-position: 0 -216px; }
+.flair-wh-brokennose { background-position: 0 -240px; }
+.flair-wh-challenger-crow { background-position: 0 -264px; }
+.flair-wh-challenger-eagle { background-position: 0 -288px; }
+.flair-wh-challenger-hound { background-position: 0 -312px; }
+.flair-wh-challenger-serpent { background-position: 0 -336px; }
+.flair-wh-empiresecessionists { background-position: 0 -360px; }
+.flair-wh-estalia { background-position: 0 -384px; }
+.flair-wh-goromadny { background-position: 0 -408px; }
+.flair-wh-graeling { background-position: 0 -432px; }
+.flair-wh-helspire { background-position: 0 -456px; }
+.flair-wh-hochland { background-position: 0 -480px; }
+.flair-wh-jagged-horntribe { background-position: 0 -504px; }
+.flair-wh-karakazul { background-position: 0 -528px; }
+.flair-wh-karakhirn { background-position: 0 -552px; }
+.flair-wh-karakizor { background-position: 0 -576px; }
+.flair-wh-karakkadrin { background-position: 0 -600px; }
+.flair-wh-karaknorn { background-position: 0 -624px; }
+.flair-wh-karakziflin { background-position: 0 -648px; }
+.flair-wh-kislev { background-position: 0 -672px; }
+.flair-wh-krakadrak { background-position: 0 -696px; }
+.flair-wh-lyonesse { background-position: 0 -720px; }
+.flair-wh-marienburg { background-position: 0 -744px; }
+.flair-wh-middenland { background-position: 0 -768px; }
+.flair-wh-mousillon { background-position: 0 -792px; }
+.flair-wh-naglfarlings { background-position: 0 -816px; }
+.flair-wh-necksnappers { background-position: 0 -840px; }
+.flair-wh-nordland { background-position: 0 -864px; }
+.flair-wh-orcsofthebloodyhand { background-position: 0 -888px; }
+.flair-wh-ostermark { background-position: 0 -912px; }
+.flair-wh-ostland { background-position: 0 -936px; }
+.flair-wh-parravon { background-position: 0 -960px; }
+.flair-wh-redeye { background-position: 0 -984px; }
+.flair-wh-redfangs { background-position: 0 -1008px; }
+.flair-wh-redhorntribe { background-position: 0 -1032px; }
+.flair-wh-sarl { background-position: 0 -1056px; }
+.flair-wh-scabbyeye { background-position: 0 -1080px; }
+.flair-wh-skaeling { background-position: 0 -1104px; }
+.flair-wh-skullsmasherz { background-position: 0 -1128px; }
+.flair-wh-skull-takerz { background-position: 0 -1152px; }
+.flair-wh-stirland { background-position: 0 -1176px; }
+.flair-wh-talabecland { background-position: 0 -1200px; }
+.flair-wh-teefsnatchaz { background-position: 0 -1224px; }
+.flair-wh-templehof { background-position: 0 -1248px; }
+.flair-wh-tilea { background-position: 0 -1272px; }
+.flair-wh-topknotz { background-position: 0 -1296px; }
+.flair-wh-torgovann { background-position: 0 -1320px; }
+.flair-wh-vanaheimlings { background-position: 0 -1344px; }
+.flair-wh-varg { background-position: 0 -1368px; }
+.flair-wh-waldenhof { background-position: 0 -1392px; }
+.flair-wh-warherdofchaos { background-position: 0 -1416px; }
+.flair-wh-wissenland { background-position: 0 -1440px; }
+.flair-wh-wydrioth { background-position: 0 -1464px; }
+.flair-wh-zhufbar { background-position: 0 -1488px; }
+
+/* Attila factions */
+.flair-att { background-image: url('static/flairs-att-factions.png'); }
+.flair-att-aksum { background-position: 0 0; }
+.flair-att-alamans { background-position: 0 -24px; }
+.flair-att-alans { background-position: 0 -48px; }
+.flair-att-anteans { background-position: 0 -72px; }
+.flair-att-asturiaskingdom { background-position: 0 -96px; }
+.flair-att-avars { background-position: 0 -120px; }
+.flair-att-burgundians { background-position: 0 -144px; }
+.flair-att-caledonians { background-position: 0 -168px; }
+.flair-att-charlemagnekingdom { background-position: 0 -192px; }
+.flair-att-cordobaemirate { background-position: 0 -216px; }
+.flair-att-daneskingdom { background-position: 0 -240px; }
+.flair-att-danes { background-position: 0 -264px; }
+.flair-att-easternromanempire { background-position: 0 -288px; }
+.flair-att-ebdanians { background-position: 0 -312px; }
+.flair-att-franks { background-position: 0 -336px; }
+.flair-att-garamantia { background-position: 0 -360px; }
+.flair-att-geats { background-position: 0 -384px; }
+.flair-att-himyar { background-position: 0 -408px; }
+.flair-att-huns { background-position: 0 -432px; }
+.flair-att-jutes { background-position: 0 -456px; }
+.flair-att-lakhmids { background-position: 0 -480px; }
+.flair-att-langobards { background-position: 0 -504px; }
+.flair-att-lombardskingdom { background-position: 0 -528px; }
+.flair-att-merciakingdom { background-position: 0 -552px; }
+.flair-att-ostrogoths { background-position: 0 -576px; }
+.flair-att-picts { background-position: 0 -600px; }
+.flair-att-romanexpedition { background-position: 0 -624px; }
+.flair-att-sassanidempire { background-position: 0 -648px; }
+.flair-att-saxons { background-position: 0 -672px; }
+.flair-att-sclavenians { background-position: 0 -696px; }
+.flair-att-suebi { background-position: 0 -720px; }
+.flair-att-tanukhids { background-position: 0 -744px; }
+.flair-att-vandals { background-position: 0 -768px; }
+.flair-att-venedians { background-position: 0 -792px; }
+.flair-att-visigoths { background-position: 0 -816px; }
+.flair-att-westernromanempire { background-position: 0 -840px; }
+.flair-att-westphalia { background-position: 0 -864px; }
+.flair-att-whitehuns { background-position: 0 -888px; }
+
+/* Rome 2 factions */
+.flair-r2 { background-image: url('static/flairs-r2-factions.png') }
+.flair-r2-antonysrome { background-position: 0 0; }
+.flair-r2-ardiaei { background-position: 0 -24px; }
+.flair-r2-arevaci { background-position: 0 -48px; }
+.flair-r2-armenia { background-position: 0 -72px; }
+.flair-r2-athenai { background-position: 0 -96px; }
+.flair-r2-athens { background-position: 0 -120px; }
+.flair-r2-averni { background-position: 0 -144px; }
+.flair-r2-baktria { background-position: 0 -168px; }
+.flair-r2-boii { background-position: 0 -192px; }
+.flair-r2-boiotianleague { background-position: 0 -216px; }
+.flair-r2-carthage { background-position: 0 -240px; }
+.flair-r2-cimmeria { background-position: 0 -264px; }
+.flair-r2-colchis { background-position: 0 -288px; }
+.flair-r2-egypt { background-position: 0 -312px; }
+.flair-r2-epirus { background-position: 0 -336px; }
+.flair-r2-galatia { background-position: 0 -360px; }
+.flair-r2-getae { background-position: 0 -384px; }
+.flair-r2-iceni { background-position: 0 -408px; }
+.flair-r2-korinthos { background-position: 0 -432px; }
+.flair-r2-lepidusrome { background-position: 0 -456px; }
+.flair-r2-lusitani { background-position: 0 -480px; }
+.flair-r2-macedon { background-position: 0 -504px; }
+.flair-r2-massagetae { background-position: 0 -528px; }
+.flair-r2-massilia { background-position: 0 -552px; }
+.flair-r2-nervii { background-position: 0 -576px; }
+.flair-r2-octaviansrome { background-position: 0 -600px; }
+.flair-r2-odrysiankingdom { background-position: 0 -624px; }
+.flair-r2-parthia { background-position: 0 -648px; }
+.flair-r2-pergamon { background-position: 0 -672px; }
+.flair-r2-pontus { background-position: 0 -696px; }
+.flair-r2-rome { background-position: 0 -720px; }
+.flair-r2-roxolani { background-position: 0 -744px; }
+.flair-r2-royalscythia { background-position: 0 -768px; }
+.flair-r2-seleucids { background-position: 0 -792px; }
+.flair-r2-sparta { background-position: 0 -816px; }
+.flair-r2-sparta-wos { background-position: 0 -840px; }
+.flair-r2-suebi { background-position: 0 -864px; }
+.flair-r2-syracuse { background-position: 0 -888px; }
+.flair-r2-tylis { background-position: 0 -912px; }
+
+/* Shogun 2 main game factions */
+.flair-sh2 { background-image: url('static/flairs-sh2-maingame.png'); }
+.flair-sh2-amako { background-position: 0 0; }
+.flair-sh2-anegakoji { background-position: 0 -24px; }
+.flair-sh2-asai { background-position: 0 -48px; }
+.flair-sh2-asano { background-position: 0 -72px; }
+.flair-sh2-ashikaga { background-position: 0 -96px; }
+.flair-sh2-ashina { background-position: 0 -120px; }
+.flair-sh2-bessho { background-position: 0 -144px; }
+.flair-sh2-chosokabe { background-position: 0 -168px; }
+.flair-sh2-date { background-position: 0 -192px; }
+.flair-sh2-europeantraders { background-position: 0 -216px; }
+.flair-sh2-hatakeyama { background-position: 0 -240px; }
+.flair-sh2-hatano { background-position: 0 -264px; }
+.flair-sh2-hattori { background-position: 0 -288px; }
+.flair-sh2-hojo { background-position: 0 -312px; }
+.flair-sh2-honma { background-position: 0 -336px; }
+.flair-sh2-hosokawa { background-position: 0 -360px; }
+.flair-sh2-ikkoikki { background-position: 0 -384px; }
+.flair-sh2-imagawa { background-position: 0 -408px; }
+.flair-sh2-ishida { background-position: 0 -432px; }
+.flair-sh2-ito { background-position: 0 -456px; }
+.flair-sh2-jinbo { background-position: 0 -480px; }
+.flair-sh2-kikkawa { background-position: 0 -504px; }
+.flair-sh2-kiso { background-position: 0 -528px; }
+.flair-sh2-kitabatake { background-position: 0 -552px; }
+.flair-sh2-kobayakawa { background-position: 0 -576px; }
+.flair-sh2-kono { background-position: 0 -600px; }
+.flair-sh2-kuroda { background-position: 0 -624px; }
+.flair-sh2-matsuda { background-position: 0 -648px; }
+.flair-sh2-miyoshi { background-position: 0 -672px; }
+.flair-sh2-mogami { background-position: 0 -696px; }
+.flair-sh2-mori { background-position: 0 -720px; }
+.flair-sh2-murakami { background-position: 0 -744px; }
+.flair-sh2-oda { background-position: 0 -768px; }
+.flair-sh2-ogigayatsu { background-position: 0 -792px; }
+.flair-sh2-otomo { background-position: 0 -816px; }
+.flair-sh2-ouchi { background-position: 0 -840px; }
+.flair-sh2-sagara { background-position: 0 -864px; }
+.flair-sh2-saito { background-position: 0 -888px; }
+.flair-sh2-sakai { background-position: 0 -912px; }
+.flair-sh2-satake { background-position: 0 -936px; }
+.flair-sh2-satomi { background-position: 0 -960px; }
+.flair-sh2-shimazu { background-position: 0 -984px; }
+.flair-sh2-shoni { background-position: 0 -1008px; }
+.flair-sh2-sogo { background-position: 0 -1032px; }
+.flair-sh2-takaoka { background-position: 0 -1056px; }
+.flair-sh2-takeda { background-position: 0 -1080px; }
+.flair-sh2-tokugawa { background-position: 0 -1104px; }
+.flair-sh2-toyotomi { background-position: 0 -1128px; }
+.flair-sh2-tsutsui { background-position: 0 -1152px; }
+.flair-sh2-uesugi { background-position: 0 -1176px; }
+.flair-sh2-ukita { background-position: 0 -1200px; }
+.flair-sh2-urakami { background-position: 0 -1224px; }
+.flair-sh2-utsonomiya { background-position: 0 -1248px; }
+.flair-sh2-wakopirates { background-position: 0 -1272px; }
+.flair-sh2-wako { background-position: 0 -1296px; }
+.flair-sh2-yamana { background-position: 0 -1320px; }
+.flair-sh2-yamanouchi { background-position: 0 -1344px; }
+
+/* Shogun 2 Rise of the Samurai factions */
+.flair-sh2-rots { background-image: url('static/flairs-sh2-rots.png'); }
+.flair-sh2-rots-adachi { background-position: 0 0; }
+.flair-sh2-rots-akamatsu { background-position: 0 -24px; }
+.flair-sh2-rots-akizuki { background-position: 0 -48px; }
+.flair-sh2-rots-amakasu { background-position: 0 -72px; }
+.flair-sh2-rots-ariwara { background-position: 0 -96px; }
+.flair-sh2-rots-ashikaga { background-position: 0 -120px; }
+.flair-sh2-rots-chiba { background-position: 0 -144px; }
+.flair-sh2-rots-daisuke { background-position: 0 -168px; }
+.flair-sh2-rots-doi { background-position: 0 -192px; }
+.flair-sh2-rots-edo { background-position: 0 -216px; }
+.flair-sh2-rots-fukuhara-taira { background-position: 0 -240px; }
+.flair-sh2-rots-hasebe { background-position: 0 -264px; }
+.flair-sh2-rots-hata { background-position: 0 -288px; }
+.flair-sh2-rots-hatakeyama { background-position: 0 -312px; }
+.flair-sh2-rots-hiraizumi-fujiwara { background-position: 0 -336px; }
+.flair-sh2-rots-honda { background-position: 0 -360px; }
+.flair-sh2-rots-ii { background-position: 0 -384px; }
+.flair-sh2-rots-inoue { background-position: 0 -408px; }
+.flair-sh2-rots-ishikawa { background-position: 0 -432px; }
+.flair-sh2-rots-isonokami { background-position: 0 -456px; }
+.flair-sh2-rots-ito { background-position: 0 -480px; }
+.flair-sh2-rots-kagawa { background-position: 0 -504px; }
+.flair-sh2-rots-kaizokupirates { background-position: 0 -528px; }
+.flair-sh2-rots-kajiwara { background-position: 0 -552px; }
+.flair-sh2-rots-kamakura-minamoto { background-position: 0 -576px; }
+.flair-sh2-rots-kibi { background-position: 0 -600px; }
+.flair-sh2-rots-kikuchi { background-position: 0 -624px; }
+.flair-sh2-rots-kiso-minamoto { background-position: 0 -648px; }
+.flair-sh2-rots-kitabatake { background-position: 0 -672px; }
+.flair-sh2-rots-kiyohara { background-position: 0 -696px; }
+.flair-sh2-rots-kobayakawa { background-position: 0 -720px; }
+.flair-sh2-rots-koide { background-position: 0 -744px; }
+.flair-sh2-rots-kono { background-position: 0 -768px; }
+.flair-sh2-rots-kubota-fujiwara { background-position: 0 -792px; }
+.flair-sh2-rots-kusunoki { background-position: 0 -816px; }
+.flair-sh2-rots-kyogoku { background-position: 0 -840px; }
+.flair-sh2-rots-masuda { background-position: 0 -864px; }
+.flair-sh2-rots-nitta { background-position: 0 -888px; }
+.flair-sh2-rots-ochi { background-position: 0 -912px; }
+.flair-sh2-rots-ogata { background-position: 0 -936px; }
+.flair-sh2-rots-okura { background-position: 0 -960px; }
+.flair-sh2-rots-ouchi { background-position: 0 -984px; }
+.flair-sh2-rots-sasaki { background-position: 0 -1008px; }
+.flair-sh2-rots-satake { background-position: 0 -1032px; }
+.flair-sh2-rots-seno { background-position: 0 -1056px; }
+.flair-sh2-rots-shiba { background-position: 0 -1080px; }
+.flair-sh2-rots-shinmen { background-position: 0 -1104px; }
+.flair-sh2-rots-soga { background-position: 0 -1128px; }
+.flair-sh2-rots-soma { background-position: 0 -1152px; }
+.flair-sh2-rots-sugawara { background-position: 0 -1176px; }
+.flair-sh2-rots-takahashi { background-position: 0 -1200px; }
+.flair-sh2-rots-takami { background-position: 0 -1224px; }
+.flair-sh2-rots-takeda { background-position: 0 -1248px; }
+.flair-sh2-rots-tatara { background-position: 0 -1272px; }
+.flair-sh2-rots-toki { background-position: 0 -1296px; }
+.flair-sh2-rots-urakami { background-position: 0 -1320px; }
+.flair-sh2-rots-watanabe { background-position: 0 -1344px; }
+.flair-sh2-rots-yamauchi { background-position: 0 -1368px; }
+.flair-sh2-rots-yashima-taira { background-position: 0 -1392px; }
+.flair-sh2-rots-yuki { background-position: 0 -1416px; }
+
+/* Shogun 2 Fall of the Samurai factions */
+.flair-sh2-fots { background-image: url('static/flairs-sh2-fots.png'); }
+.flair-sh2-fots-aizu { background-position: 0 0; }
+.flair-sh2-fots-awaji-sumoto { background-position: 0 -24px; }
+.flair-sh2-fots-choshu { background-position: 0 -48px; }
+.flair-sh2-fots-edo { background-position: 0 -72px; }
+.flair-sh2-fots-france { background-position: 0 -96px; }
+.flair-sh2-fots-fukue { background-position: 0 -120px; }
+.flair-sh2-fots-fukui { background-position: 0 -144px; }
+.flair-sh2-fots-fukuoka { background-position: 0 -168px; }
+.flair-sh2-fots-fukuyama { background-position: 0 -192px; }
+.flair-sh2-fots-greatbritain { background-position: 0 -216px; }
+.flair-sh2-fots-gujohachiman { background-position: 0 -240px; }
+.flair-sh2-fots-hikone { background-position: 0 -264px; }
+.flair-sh2-fots-hirado { background-position: 0 -288px; }
+.flair-sh2-fots-hirosaki { background-position: 0 -312px; }
+.flair-sh2-fots-hiroshima { background-position: 0 -336px; }
+.flair-sh2-fots-imperial { background-position: 0 -360px; }
+.flair-sh2-fots-iwakuni { background-position: 0 -384px; }
+.flair-sh2-fots-jozai { background-position: 0 -408px; }
+.flair-sh2-fots-kakegawa { background-position: 0 -432px; }
+.flair-sh2-fots-kanazawa { background-position: 0 -456px; }
+.flair-sh2-fots-kofu { background-position: 0 -480px; }
+.flair-sh2-fots-koga { background-position: 0 -504px; }
+.flair-sh2-fots-kokura { background-position: 0 -528px; }
+.flair-sh2-fots-kubota { background-position: 0 -552px; }
+.flair-sh2-fots-kumamoto { background-position: 0 -576px; }
+.flair-sh2-fots-kuwana { background-position: 0 -600px; }
+.flair-sh2-fots-marugame { background-position: 0 -624px; }
+.flair-sh2-fots-matsue { background-position: 0 -648px; }
+.flair-sh2-fots-matsumae { background-position: 0 -672px; }
+.flair-sh2-fots-matsumoto { background-position: 0 -696px; }
+.flair-sh2-fots-matsushiro { background-position: 0 -720px; }
+.flair-sh2-fots-matsuyama { background-position: 0 -744px; }
+.flair-sh2-fots-mito { background-position: 0 -768px; }
+.flair-sh2-fots-miyazu { background-position: 0 -792px; }
+.flair-sh2-fots-morioka { background-position: 0 -816px; }
+.flair-sh2-fots-nagaoka { background-position: 0 -840px; }
+.flair-sh2-fots-nagoya { background-position: 0 -864px; }
+.flair-sh2-fots-nobeoka { background-position: 0 -888px; }
+.flair-sh2-fots-numata { background-position: 0 -912px; }
+.flair-sh2-fots-obama { background-position: 0 -936px; }
+.flair-sh2-fots-odawara { background-position: 0 -960px; }
+.flair-sh2-fots-oka { background-position: 0 -984px; }
+.flair-sh2-fots-okayama { background-position: 0 -1008px; }
+.flair-sh2-fots-okazaki { background-position: 0 -1032px; }
+.flair-sh2-fots-ozu { background-position: 0 -1056px; }
+.flair-sh2-fots-sado { background-position: 0 -1080px; }
+.flair-sh2-fots-saga { background-position: 0 -1104px; }
+.flair-sh2-fots-sasayama { background-position: 0 -1128px; }
+.flair-sh2-fots-satsuma { background-position: 0 -1152px; }
+.flair-sh2-fots-sayama { background-position: 0 -1176px; }
+.flair-sh2-fots-sendai { background-position: 0 -1200px; }
+.flair-sh2-fots-shogunate { background-position: 0 -1224px; }
+.flair-sh2-fots-sunpu { background-position: 0 -1248px; }
+.flair-sh2-fots-takatori { background-position: 0 -1272px; }
+.flair-sh2-fots-takatsuki { background-position: 0 -1296px; }
+.flair-sh2-fots-takayama { background-position: 0 -1320px; }
+.flair-sh2-fots-tanegashima { background-position: 0 -1344px; }
+.flair-sh2-fots-tatsuno { background-position: 0 -1368px; }
+.flair-sh2-fots-tokushima { background-position: 0 -1392px; }
+.flair-sh2-fots-tosa { background-position: 0 -1416px; }
+.flair-sh2-fots-tottori { background-position: 0 -1440px; }
+.flair-sh2-fots-toyama { background-position: 0 -1464px; }
+.flair-sh2-fots-toyooka { background-position: 0 -1488px; }
+.flair-sh2-fots-tsu { background-position: 0 -1512px; }
+.flair-sh2-fots-tsushima-fuchu { background-position: 0 -1536px; }
+.flair-sh2-fots-tsuwano { background-position: 0 -1560px; }
+.flair-sh2-fots-tsuyama { background-position: 0 -1584px; }
+.flair-sh2-fots-usa { background-position: 0 -1608px; }
+.flair-sh2-fots-utsunomiya { background-position: 0 -1632px; }
+.flair-sh2-fots-wakayama { background-position: 0 -1656px; }
+.flair-sh2-fots-yodo { background-position: 0 -1680px; }
+.flair-sh2-fots-yonago { background-position: 0 -1704px; }
+.flair-sh2-fots-yonezawa { background-position: 0 -1728px; }
+
+/* Medieval II factions */
+.flair-m2 { background-image: url('static/flairs-m2-factions.png'); width: auto; }
+.flair-m2-antioch { background-position: 0 0; }
+.flair-m2-apachean { background-position: 0 -24px; }
+.flair-m2-aztecs { background-position: 0 -48px; }
+.flair-m2-baronsalliance { background-position: 0 -72px; }
+.flair-m2-byzantineempire { background-position: 0 -96px; }
+.flair-m2-chichimec { background-position: 0 -120px; }
+.flair-m2-denmark { background-position: 0 -144px; }
+.flair-m2-egypt { background-position: 0 -168px; }
+.flair-m2-england { background-position: 0 -192px; }
+.flair-m2-france { background-position: 0 -216px; }
+.flair-m2-holyromanempire { background-position: 0 -240px; }
+.flair-m2-hungary { background-position: 0 -264px; }
+.flair-m2-ireland { background-position: 0 -288px; }
+.flair-m2-jerusalem { background-position: 0 -312px; }
+.flair-m2-lithuania { background-position: 0 -336px; }
+.flair-m2-mayans { background-position: 0 -360px; }
+.flair-m2-milan { background-position: 0 -384px; }
+.flair-m2-mongols { background-position: 0 -408px; }
+.flair-m2-moors { background-position: 0 -432px; }
+.flair-m2-norway { background-position: 0 -456px; }
+.flair-m2-novgorod { background-position: 0 -480px; }
+.flair-m2-papalstates { background-position: 0 -504px; }
+.flair-m2-poland { background-position: 0 -528px; }
+.flair-m2-portugal { background-position: 0 -552px; }
+.flair-m2-rebels { background-position: 0 -576px; }
+.flair-m2-russia { background-position: 0 -600px; }
+.flair-m2-scotland { background-position: 0 -624px; }
+.flair-m2-sicily { background-position: 0 -648px; }
+.flair-m2-spain { background-position: 0 -672px; }
+.flair-m2-tarascans { background-position: 0 -696px; }
+.flair-m2-teutonicorder { background-position: 0 -720px; }
+.flair-m2-timurids { background-position: 0 -744px; }
+.flair-m2-tlaxcalans { background-position: 0 -768px; }
+.flair-m2-turks { background-position: 0 -792px; }
+.flair-m2-venice { background-position: 0 -816px; }
+.flair-m2-wales { background-position: 0 -840px; }
+
+/* Empire factions */
+.flair-em { background-image: url('static/flairs-em-factions.png'); text-indent: 53px; }
+.flair-em-afghanistan { background-position: 0 0; }
+.flair-em-austria-monarchy { background-position: 0 -24px; }
+.flair-em-austria-republic { background-position: 0 -48px; }
+.flair-em-barbarystates-monarchy { background-position: 0 -72px; }
+.flair-em-barbarystates-republic { background-position: 0 -96px; }
+.flair-em-bavaria { background-position: 0 -120px; }
+.flair-em-cherokeenations { background-position: 0 -144px; }
+.flair-em-courland { background-position: 0 -168px; }
+.flair-em-crimeankhanate { background-position: 0 -192px; }
+.flair-em-dagestan { background-position: 0 -216px; }
+.flair-em-denmark-monarchy { background-position: 0 -240px; }
+.flair-em-denmark-republic { background-position: 0 -264px; }
+.flair-em-france-monarchy { background-position: 0 -288px; }
+.flair-em-france-republic { background-position: 0 -312px; }
+.flair-em-genoa { background-position: 0 -336px; }
+.flair-em-georgia { background-position: 0 -360px; }
+.flair-em-grancolombia { background-position: 0 -384px; }
+.flair-em-greatbritain-monarchy { background-position: 0 -408px; }
+.flair-em-greatbritain-republic { background-position: 0 -432px; }
+.flair-em-greece { background-position: 0 -456px; }
+.flair-em-hannover { background-position: 0 -480px; }
+.flair-em-hessen { background-position: 0 -504px; }
+.flair-em-hungary { background-position: 0 -528px; }
+.flair-em-huronconfederacy { background-position: 0 -552px; }
+.flair-em-inuitnations { background-position: 0 -576px; }
+.flair-em-ireland { background-position: 0 -600px; }
+.flair-em-iroquoisconfederacy { background-position: 0 -624px; }
+.flair-em-italianstates { background-position: 0 -648px; }
+.flair-em-khanateofkhiva { background-position: 0 -672px; }
+.flair-em-knightsofstjohn { background-position: 0 -696px; }
+.flair-em-louisiana { background-position: 0 -720px; }
+.flair-em-mamelukes { background-position: 0 -744px; }
+.flair-em-marathaconfederacy-monarchy { background-position: 0 -768px; }
+.flair-em-marathaconfederacy-republic { background-position: 0 -792px; }
+.flair-em-mecklenburg { background-position: 0 -816px; }
+.flair-em-mexico { background-position: 0 -840px; }
+.flair-em-morocco { background-position: 0 -864px; }
+.flair-em-mughalempire-monarchy { background-position: 0 -888px; }
+.flair-em-mughalempire-republic { background-position: 0 -912px; }
+.flair-em-mysore { background-position: 0 -936px; }
+.flair-em-naplessicily { background-position: 0 -960px; }
+.flair-em-newspain { background-position: 0 -984px; }
+.flair-em-norway { background-position: 0 -1008px; }
+.flair-em-ottomanempire-monarchy { background-position: 0 -1032px; }
+.flair-em-ottomanempire-republic { background-position: 0 -1056px; }
+.flair-em-persia { background-position: 0 -1080px; }
+.flair-em-pirates { background-position: 0 -1104px; }
+.flair-em-plainsnations { background-position: 0 -1128px; }
+.flair-em-poland-lithuania-monarchy { background-position: 0 -1152px; }
+.flair-em-poland-lithuania-republic { background-position: 0 -1176px; }
+.flair-em-portugal { background-position: 0 -1200px; }
+.flair-em-powhatanconfederacy { background-position: 0 -1224px; }
+.flair-em-prussia-monarchy { background-position: 0 -1248px; }
+.flair-em-prussia-republic { background-position: 0 -1272px; }
+.flair-em-pueblonations { background-position: 0 -1296px; }
+.flair-em-punjab { background-position: 0 -1320px; }
+.flair-em-quebec { background-position: 0 -1344px; }
+.flair-em-russia-monarchy { background-position: 0 -1368px; }
+.flair-em-russia-republic { background-position: 0 -1392px; }
+.flair-em-savoy { background-position: 0 -1416px; }
+.flair-em-saxony { background-position: 0 -1440px; }
+.flair-em-schleswig-holstein { background-position: 0 -1464px; }
+.flair-em-scotland { background-position: 0 -1488px; }
+.flair-em-spain-monarchy { background-position: 0 -1512px; }
+.flair-em-spain-republic { background-position: 0 -1536px; }
+.flair-em-sweden-monarchy { background-position: 0 -1560px; }
+.flair-em-sweden-republic { background-position: 0 -1584px; }
+.flair-em-swissconfederation { background-position: 0 -1608px; }
+.flair-em-thirteencolonies-monarchy { background-position: 0 -1632px; }
+.flair-em-thirteencolonies-republic { background-position: 0 -1656px; }
+.flair-em-tuscany { background-position: 0 -1680px; }
+.flair-em-unitedprovinces-monarchy { background-position: 0 -1704px; }
+.flair-em-unitedprovinces-republic { background-position: 0 -1728px; }
+.flair-em-us-monarchy { background-position: 0 -1752px; }
+.flair-em-us-republic { background-position: 0 -1776px; }
+.flair-em-venice { background-position: 0 -1800px; }
+.flair-em-virginiacolonists { background-position: 0 -1824px; }
+.flair-em-westphalia { background-position: 0 -1848px; }
+.flair-em-wurttemburg { background-position: 0 -1872px; }
+
+/* Rome 1 factions */
+.flair-r1 { background-image: url('static/flairs-r1-factions.png') }
+.flair-r1-alemanni { background-position: 0 0; }
+.flair-r1-armenia { background-position: 0 -24px; }
+.flair-r1-berbers { background-position: 0 -48px; }
+.flair-r1-britons { background-position: 0 -72px; }
+.flair-r1-burgundii { background-position: 0 -96px; }
+.flair-r1-carthage { background-position: 0 -120px; }
+.flair-r1-celts { background-position: 0 -144px; }
+.flair-r1-dacia { background-position: 0 -168px; }
+.flair-r1-dahae { background-position: 0 -192px; }
+.flair-r1-easternromanempire { background-position: 0 -216px; }
+.flair-r1-egypt { background-position: 0 -240px; }
+.flair-r1-franks { background-position: 0 -264px; }
+.flair-r1-gauls { background-position: 0 -288px; }
+.flair-r1-germans { background-position: 0 -312px; }
+.flair-r1-goths { background-position: 0 -336px; }
+.flair-r1-greekcities { background-position: 0 -360px; }
+.flair-r1-houseofbrutii { background-position: 0 -384px; }
+.flair-r1-houseofjulii { background-position: 0 -408px; }
+.flair-r1-houseofscipii { background-position: 0 -432px; }
+.flair-r1-huns { background-position: 0 -456px; }
+.flair-r1-illyria { background-position: 0 -480px; }
+.flair-r1-india { background-position: 0 -504px; }
+.flair-r1-kingdomofpontus { background-position: 0 -528px; }
+.flair-r1-lombardi { background-position: 0 -552px; }
+.flair-r1-macedon { background-position: 0 -576px; }
+.flair-r1-macedon-alex { background-position: 0 -600px; }
+.flair-r1-moors { background-position: 0 -624px; }
+.flair-r1-numidia { background-position: 0 -648px; }
+.flair-r1-ostrogoths { background-position: 0 -672px; }
+.flair-r1-parthia { background-position: 0 -696px; }
+.flair-r1-persia { background-position: 0 -720px; }
+.flair-r1-romansenate { background-position: 0 -744px; }
+.flair-r1-romano-british { background-position: 0 -768px; }
+.flair-r1-roxolani { background-position: 0 -792px; }
+.flair-r1-sarmatians { background-position: 0 -816px; }
+.flair-r1-sassanids { background-position: 0 -840px; }
+.flair-r1-saxons { background-position: 0 -864px; }
+.flair-r1-scythia { background-position: 0 -888px; }
+.flair-r1-scythia-alex { background-position: 0 -912px; }
+.flair-r1-seleucid { background-position: 0 -936px; }
+.flair-r1-slaves { background-position: 0 -960px; }
+.flair-r1-slavs { background-position: 0 -984px; }
+.flair-r1-spain { background-position: 0 -1008px; }
+.flair-r1-thrace { background-position: 0 -1032px; }
+.flair-r1-thrace-alex { background-position: 0 -1056px; }
+.flair-r1-vandals { background-position: 0 -1080px; }
+.flair-r1-westernromanempire { background-position: 0 -1104px; }
+.flair-r1-whitehuns { background-position: 0 -1128px; }
+
+/* Shogun 1 flairs */
+.flair-sh1 { background-image: url('static/flairs-sh1-factions.png'); }
+.flair-sh1-chosokabe { background-position: 0 0; }
+.flair-sh1-hojo { background-position: 0 -24px; }
+.flair-sh1-imagawa { background-position: 0 -48px; }
+.flair-sh1-more { background-position: 0 -72px; }
+.flair-sh1-oda { background-position: 0 -96px; }
+.flair-sh1-rebels { background-position: 0 -120px; }
+.flair-sh1-takeda { background-position: 0 -144px; }
+.flair-sh1-uesugi { background-position: 0 -168px; }
