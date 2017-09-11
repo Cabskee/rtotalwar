@@ -24,9 +24,26 @@
     "warhammer-2": {
         "tab-display": "Warhammer II",
         "playable": {
-            "message": "Warhammer II flairs are not yet available. Please check back once the game releases on September 28th, 2017!",
+            "title": "Warhammer II",
             "prefix": "wh2",
-            "parent": "wh2"
+            "parent": "wh2",
+            "flairs": [
+                { "class": "clanmors", "display": "Clan Mors" },
+                { "class": "clanpestilence", "display": "Clan Pestilence" },
+                { "class": "clanskyre", "display": "Clan Skyre" },
+                { "class": "cultofpleasure", "display": "Cult of Pleasure" },
+                { "class": "fortressofdawn", "display": "Fortress of Dawn" },
+                { "class": "haggraef", "display": "Hag Graef" },
+                { "class": "hexoatl" },
+                { "class": "lastdefenders", "display": "Last Defenders" },
+                { "class": "lothern" },
+                { "class": "mung" },
+                { "class": "naggarond" },
+                { "class": "orderofloremasters", "display": "Order of Loremasters" },
+                { "class": "rogueabominations", "display": "Rogue Abominations" },
+                { "class": "southernsentinals", "display": "Southern Sentinals" },
+                { "class": "vampirecoast", "display": "Vampire Coast" }
+            ]
         }
     },
     "warhammer": {

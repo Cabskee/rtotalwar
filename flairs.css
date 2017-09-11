@@ -83,6 +83,24 @@ input[type="text"]:hover {
 .flair-game-warhammer2 { background-position: 0 -264px; text-indent: 65px }
 .flair-game-warhammer { background-position: 0 -288px; text-indent: 40px }
 
+/* Warhammer 2 factions */
+.flair-wh2 { background-image: url('static/flairs-wh2-factions.png') }
+.flair-wh2-clanmors { background-position: 0 0; }
+.flair-wh2-clanpestilence { background-position: 0 -24px; }
+.flair-wh2-clanskyre { background-position: 0 -48px; }
+.flair-wh2-cultofpleasure { background-position: 0 -72px; }
+.flair-wh2-fortressofdawn { background-position: 0 -96px; }
+.flair-wh2-haggraef { background-position: 0 -120px; }
+.flair-wh2-hexoatl { background-position: 0 -144px; }
+.flair-wh2-lastdefenders { background-position: 0 -168px; }
+.flair-wh2-lothern { background-position: 0 -192px; }
+.flair-wh2-mung { background-position: 0 -216px; }
+.flair-wh2-naggarond { background-position: 0 -240px; }
+.flair-wh2-orderofloremasters { background-position: 0 -264px; }
+.flair-wh2-rogueabominations { background-position: 0 -288px; }
+.flair-wh2-southernsentinals { background-position: 0 -312px; }
+.flair-wh2-vampirecoast { background-position: 0 -336px; }
+
 /* Warhammer Playable factions */
 .flair-wh-playable { background-image: url('static/flairs-wh-playable.png') }
 .flair-wh-argwylon { background-position: 0 0; }
