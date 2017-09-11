@@ -28,21 +28,46 @@
             "prefix": "wh2",
             "parent": "wh2",
             "flairs": [
-                { "class": "clanmors", "display": "Clan Mors" },
-                { "class": "clanpestilence", "display": "Clan Pestilence" },
-                { "class": "clanskyre", "display": "Clan Skyre" },
-                { "class": "cultofpleasure", "display": "Cult of Pleasure" },
-                { "class": "fortressofdawn", "display": "Fortress of Dawn" },
-                { "class": "haggraef", "display": "Hag Graef" },
-                { "class": "hexoatl" },
-                { "class": "lastdefenders", "display": "Last Defenders" },
-                { "class": "lothern" },
-                { "class": "mung" },
-                { "class": "naggarond" },
-                { "class": "orderofloremasters", "display": "Order of Loremasters" },
-                { "class": "rogueabominations", "display": "Rogue Abominations" },
-                { "class": "southernsentinals", "display": "Southern Sentinals" },
-                { "class": "vampirecoast", "display": "Vampire Coast" }
+                {
+                    "title": "Skaven",
+                    "flairs": [
+                        { "class": "clanmors", "display": "Clan Mors" },
+                        { "class": "clanpestilens", "display": "Clan Pestilens" },
+                        { "class": "clanskyre", "display": "Clan Skyre" }
+                    ]
+                },
+                {
+                    "title": "Dark Elves",
+                    "flairs": [
+                        { "class": "cultofpleasure", "display": "Cult of Pleasure" },
+                        { "class": "haggraef", "display": "Hag Graef" },
+                        { "class": "naggarond" }
+                    ]
+                },
+                {
+                    "title": "High Elves",
+                    "flairs": [
+                        { "class": "fortressofdawn", "display": "Fortress of Dawn" },
+                        { "class": "lothern" },
+                        { "class": "orderofloremasters", "display": "Order of Loremasters" }
+                    ]
+                },
+                {
+                    "title": "Lizardmen",
+                    "flairs": [
+                        { "class": "hexoatl" },
+                        { "class": "lastdefenders", "display": "Last Defenders" },
+                        { "class": "southernsentinals", "display": "Southern Sentinals" }
+                    ]
+                },
+                {
+                    "title": "Others",
+                    "flairs": [
+                        { "class": "mung" },
+                        { "class": "rogueabominations", "display": "Rogue Abominations" },
+                        { "class": "vampirecoast", "display": "Vampire Coast" }
+                    ]
+                }
             ]
         }
     },

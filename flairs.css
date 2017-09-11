@@ -86,7 +86,7 @@ input[type="text"]:hover {
 /* Warhammer 2 factions */
 .flair-wh2 { background-image: url('static/flairs-wh2-factions.png') }
 .flair-wh2-clanmors { background-position: 0 0; }
-.flair-wh2-clanpestilence { background-position: 0 -24px; }
+.flair-wh2-clanpestilens { background-position: 0 -24px; }
 .flair-wh2-clanskyre { background-position: 0 -48px; }
 .flair-wh2-cultofpleasure { background-position: 0 -72px; }
 .flair-wh2-fortressofdawn { background-position: 0 -96px; }
