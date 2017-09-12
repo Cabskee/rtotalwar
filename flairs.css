@@ -98,7 +98,7 @@ input[type="text"]:hover {
 .flair-wh2-naggarond { background-position: 0 -240px; }
 .flair-wh2-orderofloremasters { background-position: 0 -264px; }
 .flair-wh2-rogueabominations { background-position: 0 -288px; }
-.flair-wh2-southernsentinals { background-position: 0 -312px; }
+.flair-wh2-southernsentinels { background-position: 0 -312px; }
 .flair-wh2-vampirecoast { background-position: 0 -336px; }
 
 /* Warhammer Playable factions */
@@ -508,6 +508,61 @@ input[type="text"]:hover {
 .flair-m2-turks { background-position: 0 -792px; }
 .flair-m2-venice { background-position: 0 -816px; }
 .flair-m2-wales { background-position: 0 -840px; }
+
+/* Napoleon factions */
+.flair-nap { background-image: url('static/flairs-nap-factions.png'); text-indent: 53px; }
+.flair-nap-austria-monarchy { background-position: 0 0; }
+.flair-nap-austria-republic { background-position: 0 -24px; }
+.flair-nap-baden-wurttemberg { background-position: 0 -48px; }
+.flair-nap-batavian-republic { background-position: 0 -72px; }
+.flair-nap-bavaria { background-position: 0 -96px; }
+.flair-nap-bedouin { background-position: 0 -120px; }
+.flair-nap-belgium { background-position: 0 -144px; }
+.flair-nap-brittany { background-position: 0 -168px; }
+.flair-nap-catalonia { background-position: 0 -192px; }
+.flair-nap-courland { background-position: 0 -216px; }
+.flair-nap-crimean-khanate { background-position: 0 -240px; }
+.flair-nap-denmark { background-position: 0 -264px; }
+.flair-nap-france-monarchy { background-position: 0 -288px; }
+.flair-nap-france-republic { background-position: 0 -312px; }
+.flair-nap-greatbritain-monarchy { background-position: 0 -336px; }
+.flair-nap-greatbritain-republic { background-position: 0 -360px; }
+.flair-nap-greece { background-position: 0 -384px; }
+.flair-nap-hannover { background-position: 0 -408px; }
+.flair-nap-hessen { background-position: 0 -432px; }
+.flair-nap-hungary { background-position: 0 -456px; }
+.flair-nap-ireland { background-position: 0 -480px; }
+.flair-nap-italy { background-position: 0 -504px; }
+.flair-nap-kingdomofitaly { background-position: 0 -528px; }
+.flair-nap-kingdomofnaples { background-position: 0 -552px; }
+.flair-nap-kingdomofsicily { background-position: 0 -576px; }
+.flair-nap-lucca { background-position: 0 -600px; }
+.flair-nap-mamelukes { background-position: 0 -624px; }
+.flair-nap-mecklenburg { background-position: 0 -648px; }
+.flair-nap-norway { background-position: 0 -672px; }
+.flair-nap-oldenburg { background-position: 0 -696px; }
+.flair-nap-ottomanempire-monarchy { background-position: 0 -720px; }
+.flair-nap-ottomanempire-republic { background-position: 0 -744px; }
+.flair-nap-papalstates { background-position: 0 -768px; }
+.flair-nap-piedmont-sardinia { background-position: 0 -792px; }
+.flair-nap-poland { background-position: 0 -816px; }
+.flair-nap-portugal { background-position: 0 -840px; }
+.flair-nap-prussia-monarchy { background-position: 0 -864px; }
+.flair-nap-prussia-republic { background-position: 0 -888px; }
+.flair-nap-romania { background-position: 0 -912px; }
+.flair-nap-russia-monarchy { background-position: 0 -936px; }
+.flair-nap-russia-republic { background-position: 0 -960px; }
+.flair-nap-saxony { background-position: 0 -984px; }
+.flair-nap-scotland { background-position: 0 -1008px; }
+.flair-nap-spain-monarchy { background-position: 0 -1032px; }
+.flair-nap-spain-peninsular { background-position: 0 -1056px; }
+.flair-nap-spain-republic { background-position: 0 -1080px; }
+.flair-nap-sweden { background-position: 0 -1104px; }
+.flair-nap-swiss-confederation { background-position: 0 -1128px; }
+.flair-nap-tuscany { background-position: 0 -1152px; }
+.flair-nap-united-netherlands { background-position: 0 -1176px; }
+.flair-nap-venice { background-position: 0 -1200px; }
+.flair-nap-westphalia { background-position: 0 -1224px; }
 
 /* Empire factions */
 .flair-em { background-image: url('static/flairs-em-factions.png'); text-indent: 53px; }

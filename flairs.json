@@ -57,7 +57,7 @@
                     "flairs": [
                         { "class": "hexoatl" },
                         { "class": "lastdefenders", "display": "Last Defenders" },
-                        { "class": "southernsentinals", "display": "Southern Sentinals" }
+                        { "class": "southernsentinels", "display": "Southern Sentinels" }
                     ]
                 },
                 {
@@ -226,8 +226,8 @@
     },
     "attila": {
         "tab-display": "Attila",
-        "main-game": {
-            "title": "Main Game",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "att",
             "parent": "att",
             "flairs": [
@@ -327,8 +327,8 @@
     },
     "rome2": {
         "tab-display": "Rome II",
-        "main-game": {
-            "title": "Main Game",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "r2",
             "parent": "r2",
             "flairs": [
@@ -430,8 +430,8 @@
     },
     "shogun2": {
         "tab-display": "Shogun 2",
-        "playable": {
-            "title": "Main Game",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "sh2",
             "parent": "sh2",
             "flairs": [
@@ -674,17 +674,116 @@
     },
     "napoleon": {
         "tab-display": "Napoleon",
-        "playable": {
-            "message": "Napoleon flairs are not yet available. Please check back again soon!",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "nap",
             "parent": "nap",
-            "flairs": []
+            "flairs": [
+                {
+                    "title": "Playable",
+                    "flairs": [
+                        { "class": "austria-monarchy", "display": "Austria (Monarchy)" },
+                        { "class": "austria-republic", "display": "Austria (Republic)" },
+                        { "class": "france-monarchy", "display": "France (Monarchy)" },
+                        { "class": "france-republic", "display": "France (Republic)" },
+                        { "class": "greatbritain-monarchy", "display": "Great Britain (Monarchy)" },
+                        { "class": "greatbritain-republic", "display": "Great Britain (Republic)" },
+                        { "class": "prussia-monarchy", "display": "Prussia (Monarchy)" },
+                        { "class": "prussia-republic", "display": "Prussia (Republic)" },
+                        { "class": "russia-monarchy", "display": "Russia (Monarchy)" },
+                        { "class": "russia-republic", "display": "Russia (Republic)" }
+                    ]
+                },
+                {
+                    "title": "Non-Playable",
+                    "flairs": [
+                        { "class": "baden-wurttemberg", "display": "Baden-Wurttemberg" },
+                        { "class": "batavian-republic", "display": "Batavian Republic" },
+                        { "class": "bavaria" },
+                        { "class": "denmark" },
+                        { "class": "hessen" },
+                        { "class": "kingdomofitaly", "display": "Kingdom of Italy" },
+                        { "class": "kingdomofnaples", "display": "Kingdom of Naples" },
+                        { "class": "piedmont-sardinia", "display": "Kingdom of Sardinia" },
+                        { "class": "kingdomofsicily", "display": "Kingdom of Siciliy" },
+                        { "class": "mecklenburg" },
+                        { "class": "oldenburg" },
+                        { "class": "ottomanempire-monarchy", "display": "Ottoman Empire (Monarchy)" },
+                        { "class": "ottomanempire-republic", "display": "Ottoman Empire (Republic)" },
+                        { "class": "papalstates", "display": "Papal States" },
+                        { "class": "portugal" },
+                        { "class": "saxony" },
+                        { "class": "spain-monarchy", "display": "Spain (Monarchy)" },
+                        { "class": "spain-republic", "display": "Spain (Republic)" },
+                        { "class": "sweden" },
+                        { "class": "swiss-confederation", "display": "Swiss Confederation" }
+                    ]
+                },
+                {
+                    "title": "Emerging",
+                    "flairs": [
+                        { "class": "belgium" },
+                        { "class": "brittany" },
+                        { "class": "catalonia" },
+                        { "class": "courland" },
+                        { "class": "crimean-khanate", "display": "Crimean Khanate" },
+                        { "class": "greece "},
+                        { "class": "hannover" },
+                        { "class": "hungary" },
+                        { "class": "ireland" },
+                        { "class": "italy" },
+                        { "class": "norway" },
+                        { "class": "poland" },
+                        { "class": "romania" },
+                        { "class": "scotland" },
+                        { "class": "united-netherlands", "display": "United Netherlands" },
+                        { "class": "westphalia" }
+                    ]
+                }
+            ]
+        },
+        "italian": {
+            "title": "Italian Campaign",
+            "prefix": "nap",
+            "parent": "nap",
+            "flairs": [
+                { "class": "france-republic", "display": "France" },
+                { "class": "austria-monarchy", "display": "Austria" },
+                { "class": "lucca" },
+                { "class": "papalstates", "display": "Papal States" },
+                { "class": "piedmont-sardinia", "display": "Piedmont-Sardinia" },
+                { "class": "tuscany" },
+                { "class": "venice" }
+            ]
+        },
+        "egyptian": {
+            "title": "Egyptian Campaign",
+            "prefix": "nap",
+            "parent": "nap",
+            "flairs": [
+                { "class": "france-republic", "display": "French Republic" },
+                { "class": "bedouin" },
+                { "class": "greatbritain-monarchy", "display": "Great Britain" },
+                { "class": "mamelukes" },
+                { "class": "ottomanempire-monarchy", "display": "Ottoman Empire" }
+            ]
+        },
+        "peninsular": {
+            "title": "Peninsular Campaign",
+            "prefix": "nap",
+            "parent": "nap",
+            "flairs": [
+                { "class": "france-republic", "display": "France" },
+                { "class": "greatbritain-monarchy", "display": "Great Britain" },
+                { "class": "spain-peninsular", "display": "Spain" },
+                { "class": "portugal" }
+            ]
         }
     },
     "empire": {
         "tab-display": "Empire",
-        "main-game": {
-            "title": "Main Game",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "em",
             "parent": "em",
             "flairs": [
@@ -815,8 +914,8 @@
     },
     "medieval2": {
         "tab-display": "Medieval II",
-        "playable": {
-            "title": "Main Game",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "m2",
             "parent": "m2",
             "flairs": [
@@ -914,8 +1013,8 @@
     },
     "rome": {
         "tab-display": "Rome",
-        "main-game": {
-            "title": "Main Game",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "r1",
             "parent": "r1",
             "flairs": [
@@ -1014,8 +1113,8 @@
     },
     "shogun": {
         "tab-display": "Shogun",
-        "playable": {
-            "title": "Main Game",
+        "grand-campaign": {
+            "title": "Grand Campaign",
             "prefix": "sh1",
             "parent": "sh1",
             "flairs": [
