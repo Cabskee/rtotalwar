@@ -33,7 +33,7 @@
                     "flairs": [
                         { "class": "clanmors", "display": "Clan Mors" },
                         { "class": "clanpestilens", "display": "Clan Pestilens" },
-                        { "class": "clanskyre", "display": "Clan Skyre" }
+                        { "class": "clanskyre", "display": "Clan Skryre" }
                     ]
                 },
                 {
@@ -193,7 +193,7 @@
                     ]
                 },
                 {
-                    "title": "Border Princes",
+                    "title": "Southern Realms",
                     "flairs": [
                         { "class": "borderprinces", "display": "Border Princes" },
                         { "class": "estalia" },
