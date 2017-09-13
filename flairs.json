@@ -17,7 +17,8 @@
                 { "class": "rome2", "display": "Rome II" },
                 { "class": "attila" },
                 { "class": "warhammer" },
-                { "class": "warhammer2", "display": "Warhammer II" }
+                { "class": "warhammer2", "display": "Warhammer II" },
+                { "class": "arena" }
             ]
         }
     },
