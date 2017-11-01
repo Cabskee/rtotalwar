@@ -30,43 +30,190 @@
             "parent": "wh2",
             "flairs": [
                 {
-                    "title": "Skaven",
-                    "flairs": [
-                        { "class": "clanmors", "display": "Clan Mors" },
-                        { "class": "clanpestilens", "display": "Clan Pestilens" },
-                        { "class": "clanskyre", "display": "Clan Skryre" }
-                    ]
-                },
-                {
                     "title": "Dark Elves",
                     "flairs": [
+                        { "class": "bleakholds", "display": "Bleak Holds" },
+                        { "class": "bloodhallcoven", "display": "Blood Hall Coven" },
+                        { "class": "clarkarond", "display": "Clar Karond" },
+                        { "class": "cultofexcess", "display": "Cult of Excess" },
                         { "class": "cultofpleasure", "display": "Cult of Pleasure" },
+                        { "class": "darkelfintervention", "display": "Dark Elf Intervention" },
+                        { "class": "darkelfrebels", "display": "Dark Elf Rebels" },
+                        { "class": "deadwoodsentinels", "display": "Deadwood Sentinels" },
+                        { "class": "dracklacoven", "display": "Drackla Coven" },
+                        { "class": "ghrond" },
                         { "class": "haggraef", "display": "Hag Graef" },
-                        { "class": "naggarond" }
+                        { "class": "harganeth", "display": "Har Ganeth" },
+                        { "class": "karondkar", "display": "Karond Kar" },
+                        { "class": "naggarond" },
+                        { "class": "scourgeofkhaine", "display": "Scourge of Khaine" },
+                        { "class": "ssildrator", "display": "Ssil'dra Tor" },
+                        { "class": "theforgebound", "display": "The Forgebound" }
                     ]
                 },
                 {
                     "title": "High Elves",
                     "flairs": [
+                        { "class": "avelorn" },
+                        { "class": "caledor" },
+                        { "class": "chrace" },
+                        { "class": "citadelofdusk", "display": "Citadel of Dusk" },
+                        { "class": "cothique" },
+                        { "class": "ellyrion" },
                         { "class": "fortressofdawn", "display": "Fortress of Dawn" },
+                        { "class": "highelfintervention", "display": "High Elf Intervention" },
+                        { "class": "highelfrebels", "display": "High Elf Rebels" },
                         { "class": "lothern" },
-                        { "class": "orderofloremasters", "display": "Order of Loremasters" }
+                        { "class": "nagarythe" },
+                        { "class": "orderofloremasters", "display": "Order of Loremasters" },
+                        { "class": "saphery" },
+                        { "class": "tiranoc" },
+                        { "class": "torelasor", "display": "Tor Elasor" },
+                        { "class": "yvresse" }
                     ]
                 },
                 {
                     "title": "Lizardmen",
                     "flairs": [
                         { "class": "hexoatl" },
+                        { "class": "itza" },
                         { "class": "lastdefenders", "display": "Last Defenders" },
-                        { "class": "southernsentinels", "display": "Southern Sentinels" }
+                        { "class": "lizardmenintervention", "display": "Lizardmen Intervention" },
+                        { "class": "lizardmenrebels", "display": "Lizardmen Rebels" },
+                        { "class": "sentinelsofxeti", "display": "Sentinels of Xeti" },
+                        { "class": "southernsentinels", "display": "Southern Sentinels" },
+                        { "class": "teotiqua" },
+                        { "class": "tlaqua" },
+                        { "class": "tlaxtlan" },
+                        { "class": "xlanhuapec" },
+                        { "class": "zlatlan" }
                     ]
                 },
                 {
-                    "title": "Others",
+                    "title": "Skaven",
                     "flairs": [
+                        { "class": "claneshin", "display": "Clan Eshin" },
+                        { "class": "clangnaw", "display": "Clan Gnaw" },
+                        { "class": "clanmordkin", "display": "Clan Mordkin" },
+                        { "class": "clanmors", "display": "Clan Mors" },
+                        { "class": "clanmoulder", "display": "Clan Moulder" },
+                        { "class": "clanpestilens", "display": "Clan Pestilens" },
+                        { "class": "clanseptik", "display": "Clan Septik" },
+                        { "class": "clanskryre", "display": "Clan Skryre" },
+                        { "class": "clanspittel", "display": "Clan Spittel" },
+                        { "class": "skavenintervention", "display": "Skaven Intervention" },
+                        { "class": "skavenrebels", "display": "Skaven Rebels" },
+                        { "class": "unknownskavenclanblue", "display": "Unknown Skaven Clan" },
+                        { "class": "unknownskavenclangreen", "display": "Unknown Skaven Clan" },
+                        { "class": "unknownskavenclanpink", "display": "Unknown Skaven Clan" },
+                        { "class": "unknownskavenclanteal", "display": "Unknown Skaven Clan" }
+                    ]
+                },
+                {
+                    "title": "Beastmen",
+                    "flairs": [
+                        { "class": "blooded-axetribe", "display": "Blooded-Axe Tribe" },
+                        { "class": "manblighttribe", "display": "Manblight Tribe" },
+                        { "class": "ripper-horntribe", "display": "Ripper-Horn Tribe" },
+                        { "class": "shadowgorwarherd", "display": "Shadowgor Warherd" },
+                        { "class": "skrinderkinwarherd", "display": "Skrinderkin Warherd" },
+                        { "class": "stone-horntribe", "display": "Stone-Horn Tribe" }
+                    ]
+                },
+                {
+                    "title": "Bretonnia",
+                    "flairs": [
+                        { "class": "knightsoforigo", "display": "Knights of Origo" },
+                        { "class": "knightsoftheflame", "display": "Knights of the Flame" },
+                        { "class": "theganserrantry", "display": "Thegan's Errantry" }
+                    ]
+                },
+                {
+                    "title": "Dwarfs",
+                    "flairs": [
+                        { "class": "greybeardsprospectors", "display": "Greybeard's Prospectors" },
+                        { "class": "karakzorn", "display": "Karak Zorn" },
+                        { "class": "spineofsotekdwarfs", "display": "Spine of Sotek Dwarfs" }
+                    ]
+                },
+                {
+                    "title": "Norsca",
+                    "flairs": [
+                        { "class": "aghol" },
+                        { "class": "arachnos" },
+                        { "class": "bluevipers", "display": "Blue Vipers" },
                         { "class": "mung" },
-                        { "class": "rogueabominations", "display": "Rogue Abominations" },
+                        { "class": "skeggi" },
+                        { "class": "warbandofthecrow", "display": "Warband of the Crow" },
+                        { "class": "warbandoftheeagle", "display": "Warband of the Eagle" },
+                        { "class": "warbandofthehound", "display": "Warband of the Hound" },
+                        { "class": "warbandoftheserpent", "display": "Warband of the Serpent" }
+                    ]
+                },
+                {
+                    "title": "Rogue Armies",
+                    "flairs": [
+                        { "class": "rogueabominations", "display": "Abominations" },
+                        { "class": "roguebeastcatchas", "display": "Beast Catchas" },
+                        { "class": "roguebernhoffsbrigands", "display": "Bernhoffs Brigands" },
+                        { "class": "rogueblackspidertribe", "display": "Black Spider Tribe" },
+                        { "class": "rogueboneclubberstribe", "display": "Bone Clubbers Tribe" },
+                        { "class": "roguecelestialstorm", "display": "Celestial Storm" },
+                        { "class": "roguecollegeofpyrotechnics", "display": "College of Pyrotechnics" },
+                        { "class": "roguedoomseekers", "display": "Doomseekers" },
+                        { "class": "roguegerhardtsmercenaries", "display": "Gerhardt's Mercenaries" },
+                        { "class": "rogueheirsofmourkain", "display": "Heirs of Mourkain" },
+                        { "class": "roguehungwarband", "display": "Hung Warband" },
+                        { "class": "roguehuntersofkurnous", "display": "Hunters of Kurnous" },
+                        { "class": "roguejerrodserrantryarmy", "display": "Jerrods Errantry Army" },
+                        { "class": "roguemangyhoundz", "display": "Mangy Houndz" },
+                        { "class": "roguemengilsmanflayers", "display": "Mengil's Manflayers" },
+                        { "class": "roguemorrsliebshowlers", "display": "Morrsliebs Howlers" },
+                        { "class": "roguepiratesofthefarsea", "display": "Pirates of the Far Sea" },
+                        { "class": "roguepiratesoftrantio", "display": "Pirates of Trantio" },
+                        { "class": "roguescionsoftesseninck", "display": "Scions of Tesseninck" },
+                        { "class": "roguestuff-snatchers", "display": "Stuff-Snatchers" },
+                        { "class": "rogueteefsnatchaz", "display": "Teef Snatchaz" },
+                        { "class": "roguethescourgeofaquitaine", "display": "The Scourge of Aquitaine" },
+                        { "class": "roguethewanderingdead", "display": "The Wandering Dead" },
+                        { "class": "roguetorelithisrefugees", "display": "Tor Elithis Refugees" },
+                        { "class": "roguetroll-skullz", "display": "Troll-Skullz" },
+                        { "class": "roguevashnaarsconquest", "display": "Vashnaar's Conquest" },
+                        { "class": "roguevaulsexpedition", "display": "Vaul's Expedition" },
+                        { "class": "rogueworldrootrangers", "display": "World Root Rangers" },
+                        { "class": "roguewrathofnature", "display": "Wrath of Nature" }
+                    ]
+                },
+                {
+                    "title": "The Empire",
+                    "flairs": [
+                        { "class": "sudenburg" },
+                        { "class": "newworldcolonies", "display": "New World Colonies" },
+                        { "class": "piratesofsartosa", "display": "Pirates of Sartosa" }
+                    ]
+                },
+                {
+                    "title": "Vampires",
+                    "flairs": [
+                        { "class": "necrarchbrotherhood", "display": "Necrarch Brotherhood" },
+                        { "class": "strygosempire", "display": "Strygos Empire" },
+                        { "class": "thesilverhost", "display": "The Silver Host" },
                         { "class": "vampirecoast", "display": "Vampire Coast" }
+                    ]
+                },
+                {
+                    "title": "Warriors of Chaos",
+                    "flairs": [
+                        { "class": "followersofchaos", "display": "Followers of Chaos" },
+                        { "class": "puppetsofchaos", "display": "Puppets of Chaos" },
+                        { "class": "servantstochaos", "display": "Servants to Chaos" },
+                        { "class": "vesselsofchaos", "display": "Vessels of Chaos" }
+                    ]
+                },
+                {
+                    "title": "Wood Elves",
+                    "flairs": [
+                        { "class": "bowmenoforeon", "display": "Bowmen of Oreon" }
                     ]
                 }
             ]
