@@ -110,6 +110,20 @@
                     ]
                 },
                 {
+                    "title": "Tomb Kings",
+                    "flairs": [
+                        { "class": "courtoflybaras", "display": "Court of Lybaras" },
+                        { "class": "dunekingdoms", "display": "Dune Kingdoms" },
+                        { "class": "exilesofnehek", "display": "Exiles of Nehek" },
+                        { "class": "followersofnagash", "display": "Followers of Nagash" },
+                        { "class": "khemri" },
+                        { "class": "numas" },
+                        { "class": "rakaphdynasty", "display": "Rakaph Dynasty" },
+                        { "class": "thesentinels", "display": "The Sentinels" },
+                        { "class": "tombkingrebels", "display": "Tomb King Rebels" }
+                    ]
+                },
+                {
                     "title": "Beastmen",
                     "flairs": [
                         { "class": "blooded-axetribe", "display": "Blooded-Axe Tribe" },
