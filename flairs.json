@@ -22,6 +22,123 @@
             ]
         }
     },
+    "thrones-of-britannia": {
+	"tab-display": "Thrones of Britannia",
+	"playable": {
+	    "title": "Thrones of Britannia",
+	    "prefix": "tob",
+	    "parent": "tob",
+	    "flairs": [
+		{
+		    "title": "Playable",
+		    "flairs": [
+			{ "class": "circenn" },
+			{ "class": "dyflin" },
+			{ "class": "eastengle", "display": "East Engle" },
+			{ "class": "gwined" },
+			{ "class": "mide" },
+			{ "class": "mierce" },
+			{ "class": "northymbre" },
+			{ "class": "stratclut", "display": "Strat Clut" },
+			{ "class": "sudreyar" },
+			{ "class": "westseaxe", "display": "West Seaxe" }
+		    ]
+		},
+		{
+		    "title": "Non-Playable",
+		    "flairs": [
+			{ "class": "ailigh" },
+			{ "class": "airergoidel" },
+			{ "class": "airgialla" },
+			{ "class": "athfochla" },
+			{ "class": "bedeborg" },
+			{ "class": "brechinauc" },
+			{ "class": "bregh" },
+			{ "class": "breifne" },
+			{ "class": "caisil" },
+			{ "class": "cent" },
+			{ "class": "connacht" },
+			{ "class": "cornwalas" },
+			{ "class": "cumbra" },
+			{ "class": "defena" },
+			{ "class": "dene" },
+			{ "class": "desmuma" },
+			{ "class": "djurby" },
+			{ "class": "dornsaete" },
+			{ "class": "dubgaill" },
+			{ "class": "dyfet" },
+			{ "class": "eastsexa", "display": "East Sexa" },
+			{ "class": "finngaill" },
+			{ "class": "gallgoidel" },
+			{ "class": "gliwissig" },
+			{ "class": "grantabru" },
+			{ "class": "gwent" },
+			{ "class": "haeden" },
+			{ "class": "heimiliborg" },
+			{ "class": "hellirborg" },
+			{ "class": "hlymrekr" },
+			{ "class": "holdrness" },
+			{ "class": "hwicce" },
+			{ "class": "hyrlborg" },
+			{ "class": "iarmuma" },
+			{ "class": "jorvik" },
+			{ "class": "laigen" },
+			{ "class": "ledeborg" },
+			{ "class": "moreb" },
+			{ "class": "myrrborg" },
+			{ "class": "narenna" },
+			{ "class": "nordmann" },
+			{ "class": "normaunds" },
+			{ "class": "norse" },
+			{ "class": "northsexa" },
+			{ "class": "orkneyar" },
+			{ "class": "osraighi" },
+			{ "class": "powis" },
+			{ "class": "seisilwig" },
+			{ "class": "steinnborg" },
+			{ "class": "suthsexa" },
+			{ "class": "tuadmuma" },
+			{ "class": "uladh" },
+			{ "class": "vedrafjordr" },
+			{ "class": "veidrborg" },
+			{ "class": "veisafjordr" },
+			{ "class": "vikings" },
+			{ "class": "westmoringas" }
+		    ]
+		},
+		{
+		    "title": "Rebels",
+		    "flairs": [
+			{ "class": "rebelsenglish", "display": "English Rebels" },
+			{ "class": "rebelsirish", "display": "Irish Rebels" },
+			{ "class": "rebelsscottish", "display": "Scottish Rebels" },
+			{ "class": "rebelsvikings", "display": "Viking Rebels" },
+			{ "class": "rebelswelsh", "display": "Welsh Rebels" }
+		    ]
+		},
+		{
+		    "title": "Separatists",
+		    "flairs": [
+			{ "class": "separatistscircenn", "display": "Circenn Separatists" },
+			{ "class": "separatistsdyflin", "display": "Dyflin Separatists" },
+			{ "class": "separatistseastengle", "display": "East Engle Separatists" },
+			{ "class": "separatistsenglish", "display": "English Separatists" },
+			{ "class": "separatistsgwined", "display": "Gwined Separatists" },
+			{ "class": "separatistsirish", "display": "Irish Separatists" },
+			{ "class": "separatistsmide", "display": "Mide Separatists" },
+			{ "class": "separatistsmierce", "display": "Mierce Separatists" },
+			{ "class": "separatistsnorthymbra", "display": "Northymbra Separatists" },
+			{ "class": "separatistsscottish", "display": "Scottish Separatists" },
+			{ "class": "separatistsstratclut", "display": "Strat Clut Separatists" },
+			{ "class": "separatistssudreyar", "display": "Sudreyar Separatists" },
+			{ "class": "separatistsvikings", "display": "Viking Separatists" },
+			{ "class": "separatistswelsh", "display": "Welsh Separatists" },
+			{ "class": "separatistswestseaxe", "display": "West Seaxe Separatists" }
+		    ]
+		}
+	    ]
+	}
+    },
     "warhammer-2": {
         "tab-display": "Warhammer II",
         "playable": {
