@@ -1,26 +1,26 @@
 {
-    "game-logos": {
-        "tab-display": "Game Icons",
-        "games": {
-            "title": "Game Icons",
-            "prefix": "game",
-            "parent": "game-icon",
-            "flairs": [
-                { "class": "totalwar", "display": "Total War" },
-                { "class": "shogun" },
-                { "class": "medieval" },
-                { "class": "rome" },
-                { "class": "medieval2", "display": "Medieval II" },
-                { "class": "empire" },
-                { "class": "napoleon" },
-                { "class": "shogun2", "display": "Shogun 2" },
-                { "class": "rome2", "display": "Rome II" },
-                { "class": "attila" },
-                { "class": "warhammer" },
-                { "class": "warhammer2", "display": "Warhammer II" },
-                { "class": "arena" }
-            ]
-        }
+	"game-logos": {
+		"tab-display": "Game Icons",
+		"games": {
+			"title": "Game Icons",
+			"prefix": "game",
+			"parent": "game-icon",
+			"flairs": [
+				{ "class": "totalwar", "display": "Total War" },
+				{ "class": "shogun" },
+				{ "class": "medieval" },
+				{ "class": "rome" },
+				{ "class": "medieval2", "display": "Medieval II" },
+				{ "class": "empire" },
+				{ "class": "napoleon" },
+				{ "class": "shogun2", "display": "Shogun 2" },
+				{ "class": "rome2", "display": "Rome II" },
+				{ "class": "attila" },
+				{ "class": "warhammer" },
+				{ "class": "warhammer2", "display": "Warhammer II" },
+				{ "class": "arena" }
+			]
+		}
 	},
 	"three-kingdoms": {
 		"tab-display": "Three Kingdoms",
@@ -160,7 +160,7 @@
 			]
 		}
 	},
-    "thrones-of-britannia": {
+	"thrones-of-britannia": {
 		"tab-display": "Thrones of Britannia",
 		"playable": {
 			"title": "Thrones of Britannia",
@@ -276,56 +276,56 @@
 			}
 			]
 		}
-    },
-    "warhammer-2": {
-        "tab-display": "Warhammer II",
-        "playable": {
-            "title": "Warhammer II",
-            "prefix": "wh2",
-            "parent": "wh2",
-            "flairs": [
-                {
-                    "title": "Dark Elves",
-                    "flairs": [
-                        { "class": "bleakholds", "display": "Bleak Holds" },
-                        { "class": "bloodhallcoven", "display": "Blood Hall Coven" },
-                        { "class": "clarkarond", "display": "Clar Karond" },
-                        { "class": "cultofexcess", "display": "Cult of Excess" },
-                        { "class": "cultofpleasure", "display": "Cult of Pleasure" },
-                        { "class": "darkelfintervention", "display": "Dark Elf Intervention" },
-                        { "class": "darkelfrebels", "display": "Dark Elf Rebels" },
-                        { "class": "deadwoodsentinels", "display": "Deadwood Sentinels" },
-                        { "class": "dracklacoven", "display": "Drackla Coven" },
-                        { "class": "ghrond" },
-                        { "class": "haggraef", "display": "Hag Graef" },
-                        { "class": "harganeth", "display": "Har Ganeth" },
-                        { "class": "karondkar", "display": "Karond Kar" },
-                        { "class": "naggarond" },
-                        { "class": "scourgeofkhaine", "display": "Scourge of Khaine" },
-                        { "class": "ssildrator", "display": "Ssil'dra Tor" },
-                        { "class": "theforgebound", "display": "The Forgebound" }
-                    ]
-                },
-                {
-                    "title": "High Elves",
-                    "flairs": [
-                        { "class": "avelorn" },
-                        { "class": "caledor" },
-                        { "class": "chrace" },
-                        { "class": "citadelofdusk", "display": "Citadel of Dusk" },
-                        { "class": "cothique" },
-                        { "class": "ellyrion" },
-                        { "class": "fortressofdawn", "display": "Fortress of Dawn" },
-                        { "class": "highelfintervention", "display": "High Elf Intervention" },
-                        { "class": "highelfrebels", "display": "High Elf Rebels" },
-                        { "class": "lothern" },
-                        { "class": "nagarythe" },
-                        { "class": "orderofloremasters", "display": "Order of Loremasters" },
-                        { "class": "saphery" },
-                        { "class": "tiranoc" },
-                        { "class": "torelasor", "display": "Tor Elasor" },
-                        { "class": "yvresse" }
-                    ]
+	},
+	"warhammer-2": {
+		"tab-display": "Warhammer II",
+		"playable": {
+			"title": "Warhammer II",
+			"prefix": "wh2",
+			"parent": "wh2",
+			"flairs": [
+				{
+					"title": "Dark Elves",
+					"flairs": [
+						{ "class": "bleakholds", "display": "Bleak Holds" },
+						{ "class": "bloodhallcoven", "display": "Blood Hall Coven" },
+						{ "class": "clarkarond", "display": "Clar Karond" },
+						{ "class": "cultofexcess", "display": "Cult of Excess" },
+						{ "class": "cultofpleasure", "display": "Cult of Pleasure" },
+						{ "class": "darkelfintervention", "display": "Dark Elf Intervention" },
+						{ "class": "darkelfrebels", "display": "Dark Elf Rebels" },
+						{ "class": "deadwoodsentinels", "display": "Deadwood Sentinels" },
+						{ "class": "dracklacoven", "display": "Drackla Coven" },
+						{ "class": "ghrond" },
+						{ "class": "haggraef", "display": "Hag Graef" },
+						{ "class": "harganeth", "display": "Har Ganeth" },
+						{ "class": "karondkar", "display": "Karond Kar" },
+						{ "class": "naggarond" },
+						{ "class": "scourgeofkhaine", "display": "Scourge of Khaine" },
+						{ "class": "ssildrator", "display": "Ssil'dra Tor" },
+						{ "class": "theforgebound", "display": "The Forgebound" }
+					]
+				},
+				{
+					"title": "High Elves",
+					"flairs": [
+						{ "class": "avelorn" },
+						{ "class": "caledor" },
+						{ "class": "chrace" },
+						{ "class": "citadelofdusk", "display": "Citadel of Dusk" },
+						{ "class": "cothique" },
+						{ "class": "ellyrion" },
+						{ "class": "fortressofdawn", "display": "Fortress of Dawn" },
+						{ "class": "highelfintervention", "display": "High Elf Intervention" },
+						{ "class": "highelfrebels", "display": "High Elf Rebels" },
+						{ "class": "lothern" },
+						{ "class": "nagarythe" },
+						{ "class": "orderofloremasters", "display": "Order of Loremasters" },
+						{ "class": "saphery" },
+						{ "class": "tiranoc" },
+						{ "class": "torelasor", "display": "Tor Elasor" },
+						{ "class": "yvresse" }
+					]
 				},
 				{
 					"title": "Greenskins",
@@ -336,26 +336,26 @@
 						{ "class": "skullcrag", "display": "Skull Crag" }
 					]
 				},
-                {
-                    "title": "Lizardmen",
-                    "flairs": [
+				{
+					"title": "Lizardmen",
+					"flairs": [
 						{ "class": "Avengers" },
 						{ "class": "defendersofthegreatplan", "display": "Defenders of the Great Plan" },
 						{ "class": "itzitzatribe", "display": "Itz Itza Tribe" },
 						{ "class": "spiritofthejungle", "display": "Spirit of the Jungle" },
 						{ "class": "zlatlan" },
-                        { "class": "hexoatl" },
-                        { "class": "itza" },
-                        { "class": "lastdefenders", "display": "Last Defenders" },
-                        { "class": "lizardmenintervention", "display": "Lizardmen Intervention" },
-                        { "class": "lizardmenrebels", "display": "Lizardmen Rebels" },
-                        { "class": "sentinelsofxeti", "display": "Sentinels of Xeti" },
-                        { "class": "southernsentinels", "display": "Southern Sentinels" },
-                        { "class": "teotiqua" },
-                        { "class": "tlaqua" },
-                        { "class": "tlaxtlan" },
-                        { "class": "xlanhuapec" }
-                    ]
+						{ "class": "hexoatl" },
+						{ "class": "itza" },
+						{ "class": "lastdefenders", "display": "Last Defenders" },
+						{ "class": "lizardmenintervention", "display": "Lizardmen Intervention" },
+						{ "class": "lizardmenrebels", "display": "Lizardmen Rebels" },
+						{ "class": "sentinelsofxeti", "display": "Sentinels of Xeti" },
+						{ "class": "southernsentinels", "display": "Southern Sentinels" },
+						{ "class": "teotiqua" },
+						{ "class": "tlaqua" },
+						{ "class": "tlaxtlan" },
+						{ "class": "xlanhuapec" }
+					]
 				},
 				{
 					"title": "Vampire Coast",
@@ -378,436 +378,436 @@
 						{ "class": "vampirecoastmutineers", "display": "Vampire Coast Mutineers" },
 						{ "class": "vampirecoastrebels", "display": "Vampire Coast Rebels" },
 						{ "class": "vampirecoastseparatists", "display": "Vampire Coast Separatists" },
-                        { "class": "vampirecoast", "display": "Vampire Coast" }
+						{ "class": "vampirecoast", "display": "Vampire Coast" }
 					]
 				},
-                {
-                    "title": "Skaven",
-                    "flairs": [
-                        { "class": "claneshin", "display": "Clan Eshin" },
-                        { "class": "clangnaw", "display": "Clan Gnaw" },
-                        { "class": "clanmordkin", "display": "Clan Mordkin" },
-                        { "class": "clanmors", "display": "Clan Mors" },
-                        { "class": "clanmoulder", "display": "Clan Moulder" },
-                        { "class": "clanpestilens", "display": "Clan Pestilens" },
-                        { "class": "clanseptik", "display": "Clan Septik" },
-                        { "class": "clanskryre", "display": "Clan Skryre" },
-                        { "class": "clanspittel", "display": "Clan Spittel" },
-                        { "class": "skavenintervention", "display": "Skaven Intervention" },
-                        { "class": "skavenrebels", "display": "Skaven Rebels" },
-                        { "class": "unknownskavenclanblue", "display": "Unknown Skaven Clan" },
-                        { "class": "unknownskavenclangreen", "display": "Unknown Skaven Clan" },
-                        { "class": "unknownskavenclanpink", "display": "Unknown Skaven Clan" },
-                        { "class": "unknownskavenclanteal", "display": "Unknown Skaven Clan" }
-                    ]
-                },
-                {
-                    "title": "Tomb Kings",
-                    "flairs": [
-                        { "class": "courtoflybaras", "display": "Court of Lybaras" },
-                        { "class": "dunekingdoms", "display": "Dune Kingdoms" },
-                        { "class": "exilesofnehek", "display": "Exiles of Nehek" },
-                        { "class": "followersofnagash", "display": "Followers of Nagash" },
-                        { "class": "khemri" },
-                        { "class": "numas" },
-                        { "class": "rakaphdynasty", "display": "Rakaph Dynasty" },
-                        { "class": "thesentinels", "display": "The Sentinels" },
-                        { "class": "tombkingrebels", "display": "Tomb King Rebels" }
-                    ]
-                },
-                {
-                    "title": "Beastmen",
-                    "flairs": [
-                        { "class": "blooded-axetribe", "display": "Blooded-Axe Tribe" },
-                        { "class": "manblighttribe", "display": "Manblight Tribe" },
-                        { "class": "ripper-horntribe", "display": "Ripper-Horn Tribe" },
-                        { "class": "shadowgorwarherd", "display": "Shadowgor Warherd" },
-                        { "class": "skrinderkinwarherd", "display": "Skrinderkin Warherd" },
-                        { "class": "stone-horntribe", "display": "Stone-Horn Tribe" }
-                    ]
-                },
-                {
-                    "title": "Bretonnia",
-                    "flairs": [
-                        { "class": "knightsoforigo", "display": "Knights of Origo" },
-                        { "class": "knightsoftheflame", "display": "Knights of the Flame" },
-                        { "class": "theganserrantry", "display": "Thegan's Errantry" }
-                    ]
-                },
-                {
-                    "title": "Dwarfs",
-                    "flairs": [
-                        { "class": "greybeardsprospectors", "display": "Greybeard's Prospectors" },
-                        { "class": "karakzorn", "display": "Karak Zorn" },
-                        { "class": "spineofsotekdwarfs", "display": "Spine of Sotek Dwarfs" }
-                    ]
-                },
-                {
-                    "title": "Norsca",
-                    "flairs": [
-                        { "class": "aghol" },
-                        { "class": "arachnos" },
-                        { "class": "bluevipers", "display": "Blue Vipers" },
-                        { "class": "mung" },
-                        { "class": "skeggi" },
-                        { "class": "warbandofthecrow", "display": "Warband of the Crow" },
-                        { "class": "warbandoftheeagle", "display": "Warband of the Eagle" },
-                        { "class": "warbandofthehound", "display": "Warband of the Hound" },
-                        { "class": "warbandoftheserpent", "display": "Warband of the Serpent" }
-                    ]
-                },
-                {
-                    "title": "Rogue Armies",
-                    "flairs": [
-                        { "class": "rogueabominations", "display": "Abominations" },
-                        { "class": "roguebeastcatchas", "display": "Beast Catchas" },
-                        { "class": "roguebernhoffsbrigands", "display": "Bernhoffs Brigands" },
-                        { "class": "rogueblackspidertribe", "display": "Black Spider Tribe" },
-                        { "class": "rogueboneclubberstribe", "display": "Bone Clubbers Tribe" },
-                        { "class": "roguecelestialstorm", "display": "Celestial Storm" },
-                        { "class": "roguecollegeofpyrotechnics", "display": "College of Pyrotechnics" },
-                        { "class": "roguedoomseekers", "display": "Doomseekers" },
-                        { "class": "roguegerhardtsmercenaries", "display": "Gerhardt's Mercenaries" },
-                        { "class": "rogueheirsofmourkain", "display": "Heirs of Mourkain" },
-                        { "class": "roguehungwarband", "display": "Hung Warband" },
-                        { "class": "roguehuntersofkurnous", "display": "Hunters of Kurnous" },
-                        { "class": "roguejerrodserrantryarmy", "display": "Jerrods Errantry Army" },
-                        { "class": "roguemangyhoundz", "display": "Mangy Houndz" },
-                        { "class": "roguemengilsmanflayers", "display": "Mengil's Manflayers" },
-                        { "class": "roguemorrsliebshowlers", "display": "Morrsliebs Howlers" },
-                        { "class": "roguepiratesofthefarsea", "display": "Pirates of the Far Sea" },
-                        { "class": "roguepiratesoftrantio", "display": "Pirates of Trantio" },
-                        { "class": "roguescionsoftesseninck", "display": "Scions of Tesseninck" },
-                        { "class": "roguestuff-snatchers", "display": "Stuff-Snatchers" },
-                        { "class": "rogueteefsnatchaz", "display": "Teef Snatchaz" },
-                        { "class": "roguethescourgeofaquitaine", "display": "The Scourge of Aquitaine" },
-                        { "class": "roguethewanderingdead", "display": "The Wandering Dead" },
-                        { "class": "roguetorelithisrefugees", "display": "Tor Elithis Refugees" },
-                        { "class": "roguetroll-skullz", "display": "Troll-Skullz" },
-                        { "class": "roguevashnaarsconquest", "display": "Vashnaar's Conquest" },
-                        { "class": "roguevaulsexpedition", "display": "Vaul's Expedition" },
-                        { "class": "rogueworldrootrangers", "display": "World Root Rangers" },
-                        { "class": "roguewrathofnature", "display": "Wrath of Nature" }
-                    ]
-                },
-                {
-                    "title": "The Empire",
-                    "flairs": [
+				{
+					"title": "Skaven",
+					"flairs": [
+						{ "class": "claneshin", "display": "Clan Eshin" },
+						{ "class": "clangnaw", "display": "Clan Gnaw" },
+						{ "class": "clanmordkin", "display": "Clan Mordkin" },
+						{ "class": "clanmors", "display": "Clan Mors" },
+						{ "class": "clanmoulder", "display": "Clan Moulder" },
+						{ "class": "clanpestilens", "display": "Clan Pestilens" },
+						{ "class": "clanseptik", "display": "Clan Septik" },
+						{ "class": "clanskryre", "display": "Clan Skryre" },
+						{ "class": "clanspittel", "display": "Clan Spittel" },
+						{ "class": "skavenintervention", "display": "Skaven Intervention" },
+						{ "class": "skavenrebels", "display": "Skaven Rebels" },
+						{ "class": "unknownskavenclanblue", "display": "Unknown Skaven Clan" },
+						{ "class": "unknownskavenclangreen", "display": "Unknown Skaven Clan" },
+						{ "class": "unknownskavenclanpink", "display": "Unknown Skaven Clan" },
+						{ "class": "unknownskavenclanteal", "display": "Unknown Skaven Clan" }
+					]
+				},
+				{
+					"title": "Tomb Kings",
+					"flairs": [
+						{ "class": "courtoflybaras", "display": "Court of Lybaras" },
+						{ "class": "dunekingdoms", "display": "Dune Kingdoms" },
+						{ "class": "exilesofnehek", "display": "Exiles of Nehek" },
+						{ "class": "followersofnagash", "display": "Followers of Nagash" },
+						{ "class": "khemri" },
+						{ "class": "numas" },
+						{ "class": "rakaphdynasty", "display": "Rakaph Dynasty" },
+						{ "class": "thesentinels", "display": "The Sentinels" },
+						{ "class": "tombkingrebels", "display": "Tomb King Rebels" }
+					]
+				},
+				{
+					"title": "Beastmen",
+					"flairs": [
+						{ "class": "blooded-axetribe", "display": "Blooded-Axe Tribe" },
+						{ "class": "manblighttribe", "display": "Manblight Tribe" },
+						{ "class": "ripper-horntribe", "display": "Ripper-Horn Tribe" },
+						{ "class": "shadowgorwarherd", "display": "Shadowgor Warherd" },
+						{ "class": "skrinderkinwarherd", "display": "Skrinderkin Warherd" },
+						{ "class": "stone-horntribe", "display": "Stone-Horn Tribe" }
+					]
+				},
+				{
+					"title": "Bretonnia",
+					"flairs": [
+						{ "class": "knightsoforigo", "display": "Knights of Origo" },
+						{ "class": "knightsoftheflame", "display": "Knights of the Flame" },
+						{ "class": "theganserrantry", "display": "Thegan's Errantry" }
+					]
+				},
+				{
+					"title": "Dwarfs",
+					"flairs": [
+						{ "class": "greybeardsprospectors", "display": "Greybeard's Prospectors" },
+						{ "class": "karakzorn", "display": "Karak Zorn" },
+						{ "class": "spineofsotekdwarfs", "display": "Spine of Sotek Dwarfs" }
+					]
+				},
+				{
+					"title": "Norsca",
+					"flairs": [
+						{ "class": "aghol" },
+						{ "class": "arachnos" },
+						{ "class": "bluevipers", "display": "Blue Vipers" },
+						{ "class": "mung" },
+						{ "class": "skeggi" },
+						{ "class": "warbandofthecrow", "display": "Warband of the Crow" },
+						{ "class": "warbandoftheeagle", "display": "Warband of the Eagle" },
+						{ "class": "warbandofthehound", "display": "Warband of the Hound" },
+						{ "class": "warbandoftheserpent", "display": "Warband of the Serpent" }
+					]
+				},
+				{
+					"title": "Rogue Armies",
+					"flairs": [
+						{ "class": "rogueabominations", "display": "Abominations" },
+						{ "class": "roguebeastcatchas", "display": "Beast Catchas" },
+						{ "class": "roguebernhoffsbrigands", "display": "Bernhoffs Brigands" },
+						{ "class": "rogueblackspidertribe", "display": "Black Spider Tribe" },
+						{ "class": "rogueboneclubberstribe", "display": "Bone Clubbers Tribe" },
+						{ "class": "roguecelestialstorm", "display": "Celestial Storm" },
+						{ "class": "roguecollegeofpyrotechnics", "display": "College of Pyrotechnics" },
+						{ "class": "roguedoomseekers", "display": "Doomseekers" },
+						{ "class": "roguegerhardtsmercenaries", "display": "Gerhardt's Mercenaries" },
+						{ "class": "rogueheirsofmourkain", "display": "Heirs of Mourkain" },
+						{ "class": "roguehungwarband", "display": "Hung Warband" },
+						{ "class": "roguehuntersofkurnous", "display": "Hunters of Kurnous" },
+						{ "class": "roguejerrodserrantryarmy", "display": "Jerrods Errantry Army" },
+						{ "class": "roguemangyhoundz", "display": "Mangy Houndz" },
+						{ "class": "roguemengilsmanflayers", "display": "Mengil's Manflayers" },
+						{ "class": "roguemorrsliebshowlers", "display": "Morrsliebs Howlers" },
+						{ "class": "roguepiratesofthefarsea", "display": "Pirates of the Far Sea" },
+						{ "class": "roguepiratesoftrantio", "display": "Pirates of Trantio" },
+						{ "class": "roguescionsoftesseninck", "display": "Scions of Tesseninck" },
+						{ "class": "roguestuff-snatchers", "display": "Stuff-Snatchers" },
+						{ "class": "rogueteefsnatchaz", "display": "Teef Snatchaz" },
+						{ "class": "roguethescourgeofaquitaine", "display": "The Scourge of Aquitaine" },
+						{ "class": "roguethewanderingdead", "display": "The Wandering Dead" },
+						{ "class": "roguetorelithisrefugees", "display": "Tor Elithis Refugees" },
+						{ "class": "roguetroll-skullz", "display": "Troll-Skullz" },
+						{ "class": "roguevashnaarsconquest", "display": "Vashnaar's Conquest" },
+						{ "class": "roguevaulsexpedition", "display": "Vaul's Expedition" },
+						{ "class": "rogueworldrootrangers", "display": "World Root Rangers" },
+						{ "class": "roguewrathofnature", "display": "Wrath of Nature" }
+					]
+				},
+				{
+					"title": "The Empire",
+					"flairs": [
 						{ "class": "thehuntsmarshalsexpedition", "display": "The Huntsmarshal's Expedition" },
-                        { "class": "newworldcolonies", "display": "New World Colonies" },
-                        { "class": "piratesofsartosa", "display": "Pirates of Sartosa" },
-                        { "class": "sudenburg" }
-                    ]
-                },
-                {
-                    "title": "Vampires",
-                    "flairs": [
-                        { "class": "necrarchbrotherhood", "display": "Necrarch Brotherhood" },
-                        { "class": "strygosempire", "display": "Strygos Empire" },
-                        { "class": "thesilverhost", "display": "The Silver Host" }
-                    ]
-                },
-                {
-                    "title": "Warriors of Chaos",
-                    "flairs": [
-                        { "class": "followersofchaos", "display": "Followers of Chaos" },
-                        { "class": "puppetsofchaos", "display": "Puppets of Chaos" },
-                        { "class": "servantstochaos", "display": "Servants to Chaos" },
-                        { "class": "vesselsofchaos", "display": "Vessels of Chaos" }
-                    ]
-                },
-                {
-                    "title": "Wood Elves",
-                    "flairs": [
+						{ "class": "newworldcolonies", "display": "New World Colonies" },
+						{ "class": "piratesofsartosa", "display": "Pirates of Sartosa" },
+						{ "class": "sudenburg" }
+					]
+				},
+				{
+					"title": "Vampires",
+					"flairs": [
+						{ "class": "necrarchbrotherhood", "display": "Necrarch Brotherhood" },
+						{ "class": "strygosempire", "display": "Strygos Empire" },
+						{ "class": "thesilverhost", "display": "The Silver Host" }
+					]
+				},
+				{
+					"title": "Warriors of Chaos",
+					"flairs": [
+						{ "class": "followersofchaos", "display": "Followers of Chaos" },
+						{ "class": "puppetsofchaos", "display": "Puppets of Chaos" },
+						{ "class": "servantstochaos", "display": "Servants to Chaos" },
+						{ "class": "vesselsofchaos", "display": "Vessels of Chaos" }
+					]
+				},
+				{
+					"title": "Wood Elves",
+					"flairs": [
 						{ "class": "bowmenoforeon", "display": "Bowmen of Oreon" },
 						{ "class": "laurelornforest", "display": "Laurelorn Forest" }
-                    ]
-                }
-            ]
-        }
-    },
-    "warhammer": {
-        "tab-display": "Warhammer",
-        "playable": {
-            "title": "Major Factions",
-            "prefix": "wh",
-            "parent": "wh-playable",
-            "flairs": [
-                { "class": "argwylon" },
-                { "class": "beastmen" },
-                { "class": "bloodyhandz", "display": "The Bloody Handz" },
-                { "class": "bordeleaux" },
-                { "class": "bretonnia" },
-                { "class": "carcassonne" },
-                { "class": "clanangrund", "display": "Clan Angrund" },
-                { "class": "crookedmoon", "display": "The Crooked Moon" },
-                { "class": "dwarfs" },
-                { "class": "empire", "display": "The Empire" },
-                { "class": "greenskins" },
-                { "class": "norsca" },
-                { "class": "vampirecounts", "display": "Vampire Counts" },
-                { "class": "voncarstein", "display": "Von Carstein" },
-                { "class": "warherdoftheshadowgrave", "display": "Warherd of the Shadowgave" },
-                { "class": "warriorsofchaos", "display": "Warriors of Chaos" },
-                { "class": "wintertooth" },
-                { "class": "woodelves", "display": "Wood Elves" }
-            ]
-        },
-        "minor": {
-            "title": "Minor Factions",
-            "prefix": "wh",
-            "parent": "wh-minor",
-            "flairs": [
-                {
-                    "title": "Empire Provinces",
-                    "flairs": [
-                        { "class": "averland" },
-                        { "class": "empiresecessionists", "display": "Empire Secessionists" },
-                        { "class": "hochland" },
-                        { "class": "marienburg" },
-                        { "class": "middenland" },
-                        { "class": "nordland" },
-                        { "class": "ostermark" },
-                        { "class": "ostland" },
-                        { "class": "stirland" },
-                        { "class": "talabecland" },
-                        { "class": "wissenland" }
-                    ]
-                },
-                {
-                    "title": "Dwarfs",
-                    "flairs": [
-                        { "class": "barakvarr", "display": "Barak Varr" },
-                        { "class": "karakazul", "display": "Karak Azul" },
-                        { "class": "karakhirn", "display": "Karak Hirn" },
-                        { "class": "karakizor", "display": "Karak Izor" },
-                        { "class": "karakkadrin", "display": "Karak Kadrin" },
-                        { "class": "karaknorn", "display": "Karak Norn" },
-                        { "class": "karakziflin", "display": "Karak Ziflin" },
-                        { "class": "krakadrak", "display": "Kraka Drak" },
-                        { "class": "zhufbar" }
-                    ]
-                },
-                {
-                    "title": "Greenskins",
-                    "flairs": [
-                        { "class": "blackvenom", "display": "Black Venom" },
-                        { "class": "bloodyspearz", "display": "Bloody Spearz" },
-                        { "class": "brokennose", "display": "Broken Nose" },
-                        { "class": "necksnappers" },
-                        { "class": "orcsofthebloodyhand", "display": "Orcs of the Bloody Hand" },
-                        { "class": "redeye", "display": "Red Eye" },
-                        { "class": "redfangs", "display": "Red Fangs" },
-                        { "class": "scabbyeye", "display": "Scabby Eye" },
-                        { "class": "skull-takerz" },
-                        { "class": "skullsmasherz" },
-                        { "class": "teefsnatchaz", "display": "Teef Snatchaz" },
-                        { "class": "topknotz", "display": "Top Knotz" }
-                    ]
-                },
-                {
-                    "title": "Bretonnian Kingdoms",
-                    "flairs": [
-                        { "class": "artois" },
-                        { "class": "bastonne" },
-                        { "class": "lyonesse" },
-                        { "class": "parravon" }
-                    ]
-                },
-                {
-                    "title": "Norsca",
-                    "flairs": [
-                        { "class": "aesling" },
-                        { "class": "baersonling" },
-                        { "class": "bjornling" },
-                        { "class": "goromadny", "display": "Goromadny Tribe" },
-                        { "class": "graeling" },
-                        { "class": "helspire", "display": "Helspire Tribe" },
-                        { "class": "naglfarlings" },
-                        { "class": "sarl" },
-                        { "class": "skaeling" },
-                        { "class": "vanaheimlings" },
-                        { "class": "varg" }
-                    ]
-                },
-                {
-                    "title": "Beastmen",
-                    "flairs": [
-                        { "class": "jagged-horntribe", "display": "Jagged-Horn Tribe" },
-                        { "class": "redhorntribe", "display": "Redhorn Tribe" },
-                        { "class": "warherdofchaos", "display": "Warherd of Chaos" }
-                    ]
-                },
-                {
-                    "title": "Chaos",
-                    "flairs": [
-                        { "class": "challenger-crow", "display": "Challenger of the Crow" },
-                        { "class": "challenger-eagle", "display": "Challenger of the Eagle" },
-                        { "class": "challenger-hound", "display": "Challenger of the Hound" },
-                        { "class": "challenger-serpent", "display": "Challenger of the Serpent" }
-                    ]
-                },
-                {
-                    "title": "Southern Realms",
-                    "flairs": [
-                        { "class": "borderprinces", "display": "Border Princes" },
-                        { "class": "estalia" },
-                        { "class": "tilea" }
-                    ]
-                },
-                {
-                    "title": "Kislev",
-                    "flairs": [
-                        { "class": "kislev" }
-                    ]
-                },
-                {
-                    "title": "Vampires",
-                    "flairs": [
-                        { "class": "mousillon" },
-                        { "class": "templehof" },
-                        { "class": "waldenhof" }
-                    ]
-                },
-                {
-                    "title": "Wood Elves",
-                    "flairs": [
-                        { "class": "torgovann" },
-                        { "class": "wydrioth" }
-                    ]
-                }
-            ]
-        }
-    },
-    "attila": {
-        "tab-display": "Attila",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "att",
-            "parent": "att",
-            "flairs": [
-                { "class": "alans", "display": "The Alans" },
-                { "class": "easternromanempire", "display": "Eastern Roman Empire" },
-                { "class": "franks", "display": "The Franks" },
-                { "class": "garamantia" },
-                { "class": "huns", "display": "The Huns" },
-                { "class": "lakhmids", "display": "The Lakhmids" },
-                { "class": "ostrogoths", "display": "The Ostrogoths" },
-                { "class": "sassanidempire", "display": "The Sassanid Empire" },
-                { "class": "saxons", "display": "The Saxons" },
-                { "class": "suebi", "display": "The Suebi" },
-                { "class": "vandals", "display": "The Vandals" },
-                { "class": "visigoths", "display": "The Visigoths" },
-                { "class": "westernromanempire", "display": "Western Roman Empire" },
-                { "class": "whitehuns", "display": "The White Huns" }
-            ]
-        },
-        "campaign-packs": {
-            "title": "Campaign Packs",
-            "prefix": "att",
-            "parent": "att",
-            "flairs": [
-                {
-                    "title": "The Last Roman",
-                    "flairs": [
-                        { "class": "franks", "display": "The Frankish Kingdom" },
-                        { "class": "ostrogoths", "display": "The Ostrogothic Kingdom" },
-                        { "class": "romanexpedition", "display": "The Roman Expedition" },
-                        { "class": "vandals", "display": "The Vandalic Kingdom" },
-                        { "class": "visigoths", "display": "The Visigothic Empire" }
-                    ]
-                },
-                {
-                    "title": "Age of Charlamagne",
-                    "flairs": [
-                        { "class": "asturiaskingdom", "display": "The Kingdom of Asturias" },
-                        { "class": "avars", "display": "The Avars" },
-                        { "class": "charlemagnekingdom", "display": "The Kingdom of Charlemagne" },
-                        { "class": "cordobaemirate", "display": "The Emirate of Cordoba" },
-                        { "class": "daneskingdom", "display": "The Kingdom of the Danes" },
-                        { "class": "lombardskingdom", "display": "The Kingdom of the Lombards" },
-                        { "class": "merciakingdom", "display": "The Kingdom of Mercia" },
-                        { "class": "westphalia" }
-                    ]
-                }
-            ]
-        },
-        "culture-packs": {
-            "title": "Culture Packs",
-            "prefix": "att",
-            "parent": "att",
-            "flairs": [
-                {
-                    "title": "Viking Forefathers",
-                    "flairs": [
-                        { "class": "danes", "display": "The Danes" },
-                        { "class": "geats", "display": "The Geats" },
-                        { "class": "jutes", "display": "The Jutes" }
-                    ]
-                },
-                {
-                    "title": "Longbeards",
-                    "flairs": [
-                        { "class": "alamans", "display": "The Alamans" },
-                        { "class": "burgundians", "display": "The Burgundians" },
-                        { "class": "langobards", "display": "The Langobards" }
-                    ]
-                },
-                {
-                    "title": "Celts",
-                    "flairs": [
-                        { "class": "caledonians", "display": "The Caledonians" },
-                        { "class": "ebdanians", "display": "The Ebdanians" },
-                        { "class": "picts", "display": "The Picts" }
-                    ]
-                },
-                {
-                    "title": "Empires of Sand",
-                    "flairs": [
-                        { "class": "aksum" },
-                        { "class": "himyar" },
-                        { "class": "tanukhids", "display": "The Tanukhids" }
-                    ]
-                },
-                {
-                    "title": "Slavic Nations",
-                    "flairs": [
-                        { "class": "anteans" },
-                        { "class": "sclavenians" },
-                        { "class": "venedians" }
-                    ]
-                }
-            ]
-        }
-    },
-    "rome2": {
-        "tab-display": "Rome II",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "r2",
-            "parent": "r2",
-            "flairs": [
-                { "class": "armenia" },
-                { "class": "averni" },
-                { "class": "baktria" },
-                { "class": "carthage" },
-                { "class": "egypt" },
-                { "class": "getae" },
-                { "class": "iceni" },
-                { "class": "macedon" },
-                { "class": "massilia" },
-                { "class": "parthia" },
-                { "class": "pontus" },
-                { "class": "rome" },
-                { "class": "seleucids", "display": "Seleucid" },
-                { "class": "suebi" }
-            ]
-        },
-        "campaign-packs": {
-            "title": "Campaign Packs",
-            "prefix": "r2",
-            "parent": "r2",
-            "flairs": [
+					]
+				}
+			]
+		}
+	},
+	"warhammer": {
+		"tab-display": "Warhammer",
+		"playable": {
+			"title": "Major Factions",
+			"prefix": "wh",
+			"parent": "wh-playable",
+			"flairs": [
+				{ "class": "argwylon" },
+				{ "class": "beastmen" },
+				{ "class": "bloodyhandz", "display": "The Bloody Handz" },
+				{ "class": "bordeleaux" },
+				{ "class": "bretonnia" },
+				{ "class": "carcassonne" },
+				{ "class": "clanangrund", "display": "Clan Angrund" },
+				{ "class": "crookedmoon", "display": "The Crooked Moon" },
+				{ "class": "dwarfs" },
+				{ "class": "empire", "display": "The Empire" },
+				{ "class": "greenskins" },
+				{ "class": "norsca" },
+				{ "class": "vampirecounts", "display": "Vampire Counts" },
+				{ "class": "voncarstein", "display": "Von Carstein" },
+				{ "class": "warherdoftheshadowgrave", "display": "Warherd of the Shadowgave" },
+				{ "class": "warriorsofchaos", "display": "Warriors of Chaos" },
+				{ "class": "wintertooth" },
+				{ "class": "woodelves", "display": "Wood Elves" }
+			]
+		},
+		"minor": {
+			"title": "Minor Factions",
+			"prefix": "wh",
+			"parent": "wh-minor",
+			"flairs": [
+				{
+					"title": "Empire Provinces",
+					"flairs": [
+						{ "class": "averland" },
+						{ "class": "empiresecessionists", "display": "Empire Secessionists" },
+						{ "class": "hochland" },
+						{ "class": "marienburg" },
+						{ "class": "middenland" },
+						{ "class": "nordland" },
+						{ "class": "ostermark" },
+						{ "class": "ostland" },
+						{ "class": "stirland" },
+						{ "class": "talabecland" },
+						{ "class": "wissenland" }
+					]
+				},
+				{
+					"title": "Dwarfs",
+					"flairs": [
+						{ "class": "barakvarr", "display": "Barak Varr" },
+						{ "class": "karakazul", "display": "Karak Azul" },
+						{ "class": "karakhirn", "display": "Karak Hirn" },
+						{ "class": "karakizor", "display": "Karak Izor" },
+						{ "class": "karakkadrin", "display": "Karak Kadrin" },
+						{ "class": "karaknorn", "display": "Karak Norn" },
+						{ "class": "karakziflin", "display": "Karak Ziflin" },
+						{ "class": "krakadrak", "display": "Kraka Drak" },
+						{ "class": "zhufbar" }
+					]
+				},
+				{
+					"title": "Greenskins",
+					"flairs": [
+						{ "class": "blackvenom", "display": "Black Venom" },
+						{ "class": "bloodyspearz", "display": "Bloody Spearz" },
+						{ "class": "brokennose", "display": "Broken Nose" },
+						{ "class": "necksnappers" },
+						{ "class": "orcsofthebloodyhand", "display": "Orcs of the Bloody Hand" },
+						{ "class": "redeye", "display": "Red Eye" },
+						{ "class": "redfangs", "display": "Red Fangs" },
+						{ "class": "scabbyeye", "display": "Scabby Eye" },
+						{ "class": "skull-takerz" },
+						{ "class": "skullsmasherz" },
+						{ "class": "teefsnatchaz", "display": "Teef Snatchaz" },
+						{ "class": "topknotz", "display": "Top Knotz" }
+					]
+				},
+				{
+					"title": "Bretonnian Kingdoms",
+					"flairs": [
+						{ "class": "artois" },
+						{ "class": "bastonne" },
+						{ "class": "lyonesse" },
+						{ "class": "parravon" }
+					]
+				},
+				{
+					"title": "Norsca",
+					"flairs": [
+						{ "class": "aesling" },
+						{ "class": "baersonling" },
+						{ "class": "bjornling" },
+						{ "class": "goromadny", "display": "Goromadny Tribe" },
+						{ "class": "graeling" },
+						{ "class": "helspire", "display": "Helspire Tribe" },
+						{ "class": "naglfarlings" },
+						{ "class": "sarl" },
+						{ "class": "skaeling" },
+						{ "class": "vanaheimlings" },
+						{ "class": "varg" }
+					]
+				},
+				{
+					"title": "Beastmen",
+					"flairs": [
+						{ "class": "jagged-horntribe", "display": "Jagged-Horn Tribe" },
+						{ "class": "redhorntribe", "display": "Redhorn Tribe" },
+						{ "class": "warherdofchaos", "display": "Warherd of Chaos" }
+					]
+				},
+				{
+					"title": "Chaos",
+					"flairs": [
+						{ "class": "challenger-crow", "display": "Challenger of the Crow" },
+						{ "class": "challenger-eagle", "display": "Challenger of the Eagle" },
+						{ "class": "challenger-hound", "display": "Challenger of the Hound" },
+						{ "class": "challenger-serpent", "display": "Challenger of the Serpent" }
+					]
+				},
+				{
+					"title": "Southern Realms",
+					"flairs": [
+						{ "class": "borderprinces", "display": "Border Princes" },
+						{ "class": "estalia" },
+						{ "class": "tilea" }
+					]
+				},
+				{
+					"title": "Kislev",
+					"flairs": [
+						{ "class": "kislev" }
+					]
+				},
+				{
+					"title": "Vampires",
+					"flairs": [
+						{ "class": "mousillon" },
+						{ "class": "templehof" },
+						{ "class": "waldenhof" }
+					]
+				},
+				{
+					"title": "Wood Elves",
+					"flairs": [
+						{ "class": "torgovann" },
+						{ "class": "wydrioth" }
+					]
+				}
+			]
+		}
+	},
+	"attila": {
+		"tab-display": "Attila",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "att",
+			"parent": "att",
+			"flairs": [
+				{ "class": "alans", "display": "The Alans" },
+				{ "class": "easternromanempire", "display": "Eastern Roman Empire" },
+				{ "class": "franks", "display": "The Franks" },
+				{ "class": "garamantia" },
+				{ "class": "huns", "display": "The Huns" },
+				{ "class": "lakhmids", "display": "The Lakhmids" },
+				{ "class": "ostrogoths", "display": "The Ostrogoths" },
+				{ "class": "sassanidempire", "display": "The Sassanid Empire" },
+				{ "class": "saxons", "display": "The Saxons" },
+				{ "class": "suebi", "display": "The Suebi" },
+				{ "class": "vandals", "display": "The Vandals" },
+				{ "class": "visigoths", "display": "The Visigoths" },
+				{ "class": "westernromanempire", "display": "Western Roman Empire" },
+				{ "class": "whitehuns", "display": "The White Huns" }
+			]
+		},
+		"campaign-packs": {
+			"title": "Campaign Packs",
+			"prefix": "att",
+			"parent": "att",
+			"flairs": [
+				{
+					"title": "The Last Roman",
+					"flairs": [
+						{ "class": "franks", "display": "The Frankish Kingdom" },
+						{ "class": "ostrogoths", "display": "The Ostrogothic Kingdom" },
+						{ "class": "romanexpedition", "display": "The Roman Expedition" },
+						{ "class": "vandals", "display": "The Vandalic Kingdom" },
+						{ "class": "visigoths", "display": "The Visigothic Empire" }
+					]
+				},
+				{
+					"title": "Age of Charlamagne",
+					"flairs": [
+						{ "class": "asturiaskingdom", "display": "The Kingdom of Asturias" },
+						{ "class": "avars", "display": "The Avars" },
+						{ "class": "charlemagnekingdom", "display": "The Kingdom of Charlemagne" },
+						{ "class": "cordobaemirate", "display": "The Emirate of Cordoba" },
+						{ "class": "daneskingdom", "display": "The Kingdom of the Danes" },
+						{ "class": "lombardskingdom", "display": "The Kingdom of the Lombards" },
+						{ "class": "merciakingdom", "display": "The Kingdom of Mercia" },
+						{ "class": "westphalia" }
+					]
+				}
+			]
+		},
+		"culture-packs": {
+			"title": "Culture Packs",
+			"prefix": "att",
+			"parent": "att",
+			"flairs": [
+				{
+					"title": "Viking Forefathers",
+					"flairs": [
+						{ "class": "danes", "display": "The Danes" },
+						{ "class": "geats", "display": "The Geats" },
+						{ "class": "jutes", "display": "The Jutes" }
+					]
+				},
+				{
+					"title": "Longbeards",
+					"flairs": [
+						{ "class": "alamans", "display": "The Alamans" },
+						{ "class": "burgundians", "display": "The Burgundians" },
+						{ "class": "langobards", "display": "The Langobards" }
+					]
+				},
+				{
+					"title": "Celts",
+					"flairs": [
+						{ "class": "caledonians", "display": "The Caledonians" },
+						{ "class": "ebdanians", "display": "The Ebdanians" },
+						{ "class": "picts", "display": "The Picts" }
+					]
+				},
+				{
+					"title": "Empires of Sand",
+					"flairs": [
+						{ "class": "aksum" },
+						{ "class": "himyar" },
+						{ "class": "tanukhids", "display": "The Tanukhids" }
+					]
+				},
+				{
+					"title": "Slavic Nations",
+					"flairs": [
+						{ "class": "anteans" },
+						{ "class": "sclavenians" },
+						{ "class": "venedians" }
+					]
+				}
+			]
+		}
+	},
+	"rome2": {
+		"tab-display": "Rome II",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "r2",
+			"parent": "r2",
+			"flairs": [
+				{ "class": "armenia" },
+				{ "class": "averni" },
+				{ "class": "baktria" },
+				{ "class": "carthage" },
+				{ "class": "egypt" },
+				{ "class": "getae" },
+				{ "class": "iceni" },
+				{ "class": "macedon" },
+				{ "class": "massilia" },
+				{ "class": "parthia" },
+				{ "class": "pontus" },
+				{ "class": "rome" },
+				{ "class": "seleucids", "display": "Seleucid" },
+				{ "class": "suebi" }
+			]
+		},
+		"campaign-packs": {
+			"title": "Campaign Packs",
+			"prefix": "r2",
+			"parent": "r2",
+			"flairs": [
 				{
 					"title": "Rise of the Republic",
 					"flairs": [
@@ -821,780 +821,780 @@
 						{ "class": "veneti" }
 					]
 				},
-                {
-                    "title": "Caesar in Gaul",
-                    "flairs": [
-                        { "class": "boii" },
-                        { "class": "galatia" },
-                        { "class": "nervii" }
-                    ]
-                },
-                {
-                    "title": "Hannibal at the Gates",
-                    "flairs": [
-                        { "class": "arevaci" },
-                        { "class": "lusitani" },
-                        { "class": "syracuse" }
-                    ]
-                },
-                {
-                    "title": "Wrath of Sparta",
-                    "flairs": [
-                        { "class": "athenai" },
-                        { "class": "sparta-wos", "display": "Sparta" },
-                        { "class": "boiotianleague", "display": "Boiotian League" },
-                        { "class": "korinthos" }
-                    ]
-                },
-                {
-                    "title": "Imperator Augustus",
-                    "flairs": [
-                        { "class": "antonysrome", "display": "Antony's Rome" },
-                        { "class": "lepidusrome", "display": "Lepidus' Rome" },
-                        { "class": "octaviansrome", "display": "Octavian's Rome" }
-                    ]
-                }
-            ]
-        },
-        "culture-packs": {
-            "title": "Culture Packs",
-            "prefix": "r2",
-            "parent": "r2",
-            "flairs": [
-                {
-                    "title": "The Greek States",
-                    "flairs": [
-                        { "class": "athens" },
-                        { "class": "epirus" },
-                        { "class": "sparta" }
-                    ]
-                },
-                {
-                    "title": "The Nomadic Tribes",
-                    "flairs": [
-                        { "class": "massagetae" },
-                        { "class": "roxolani" },
-                        { "class": "royalscythia", "display": "Royal Scythia" }
-                    ]
-                },
-                {
-                    "title": "Pirates and Raiders",
-                    "flairs": [
-                        { "class": "ardiaei" },
-                        { "class": "odrysiankingdom", "display": "Odrysian Kingdom" },
-                        { "class": "tylis" }
-                    ]
-                },
-                {
-                    "title": "Black Sea Colonies",
-                    "flairs": [
-                        { "class": "cimmeria" },
-                        { "class": "colchis" },
-                        { "class": "pergamon" }
-                    ]
-                }
-            ]
-        }
-    },
-    "shogun2": {
-        "tab-display": "Shogun 2",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "sh2",
-            "parent": "sh2",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "chosokabe" },
-                        { "class": "date" },
-                        { "class": "hattori" },
-                        { "class": "hojo" },
-                        { "class": "ikkoikki" },
-                        { "class": "mori" },
-                        { "class": "oda" },
-                        { "class": "otomo" },
-                        { "class": "shimazu" },
-                        { "class": "takeda" },
-                        { "class": "tokugawa" },
-                        { "class": "uesugi" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "amako" },
-                        { "class": "anegakoji" },
-                        { "class": "asai" },
-                        { "class": "asano" },
-                        { "class": "ashikaga" },
-                        { "class": "ashina" },
-                        { "class": "bessho" },
-                        { "class": "europeantraders", "display": "European Traders" },
-                        { "class": "hatakeyama" },
-                        { "class": "hatano" },
-                        { "class": "honma" },
-                        { "class": "hosokawa" },
-                        { "class": "imagawa" },
-                        { "class": "ishida" },
-                        { "class": "ito" },
-                        { "class": "jinbo" },
-                        { "class": "kikkawa" },
-                        { "class": "kiso" },
-                        { "class": "kitabatake" },
-                        { "class": "kobayakawa" },
-                        { "class": "kono" },
-                        { "class": "kuroda" },
-                        { "class": "matsuda" },
-                        { "class": "miyoshi" },
-                        { "class": "mogami" },
-                        { "class": "murakami" },
-                        { "class": "ogigayatsu" },
-                        { "class": "ouchi" },
-                        { "class": "sagara" },
-                        { "class": "saito" },
-                        { "class": "sakai" },
-                        { "class": "satake" },
-                        { "class": "satomi" },
-                        { "class": "shoni" },
-                        { "class": "sogo" },
-                        { "class": "takaoka" },
-                        { "class": "toyotomi" },
-                        { "class": "tsutsui" },
-                        { "class": "ukita" },
-                        { "class": "urakami" },
-                        { "class": "utsonomiya" },
-                        { "class": "wako" },
-                        { "class": "wakopirates", "display": "Wako Pirates" },
-                        { "class": "yamana" },
-                        { "class": "yamanouchi" }
-                    ]
-                }
-            ]
-        },
-        "riseofthesamurai": {
-            "title": "Rise of the Samurai",
-            "prefix": "sh2-rots",
-            "parent": "sh2-rots",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "fukuhara-taira", "display": "Fukuhara Taira" },
-                        { "class": "hiraizumi-fujiwara", "display": "Hiraizumi Fjiwara" },
-                        { "class": "kamakura-minamoto", "display": "Kamakura Minamoto" },
-                        { "class": "kiso-minamoto", "display": "Kiso Minamoto" },
-                        { "class": "kubota-fujiwara", "display": "Kubota Fujiwara" },
-                        { "class": "yashima-taira", "display": "Yashima Taira" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "adachi" },
-                        { "class": "akamatsu" },
-                        { "class": "akizuki" },
-                        { "class": "amakasu" },
-                        { "class": "ariwara" },
-                        { "class": "ashikaga" },
-                        { "class": "chiba" },
-                        { "class": "daisuke" },
-                        { "class": "doi" },
-                        { "class": "edo" },
-                        { "class": "hasebe" },
-                        { "class": "hata" },
-                        { "class": "hatakeyama" },
-                        { "class": "honda" },
-                        { "class": "ii" },
-                        { "class": "inoue" },
-                        { "class": "ishikawa" },
-                        { "class": "isonokami" },
-                        { "class": "ito" },
-                        { "class": "kagawa" },
-                        { "class": "kaizokupirates", "display": "Kaizoku Pirates" },
-                        { "class": "kajiwara" },
-                        { "class": "kibi" },
-                        { "class": "kikuchi" },
-                        { "class": "kitabatake" },
-                        { "class": "kiyohara" },
-                        { "class": "kobayakawa" },
-                        { "class": "koide" },
-                        { "class": "kono" },
-                        { "class": "kusunoki" },
-                        { "class": "kyogoku" },
-                        { "class": "masuda" },
-                        { "class": "nitta" },
-                        { "class": "ochi" },
-                        { "class": "ogata" },
-                        { "class": "okura" },
-                        { "class": "ouchi" },
-                        { "class": "sasaki" },
-                        { "class": "satake" },
-                        { "class": "seno" },
-                        { "class": "shiba" },
-                        { "class": "shinmen" },
-                        { "class": "soga" },
-                        { "class": "soma" },
-                        { "class": "sugawara" },
-                        { "class": "takahashi" },
-                        { "class": "takami" },
-                        { "class": "takeda" },
-                        { "class": "tatara" },
-                        { "class": "toki" },
-                        { "class": "urakami" },
-                        { "class": "watanabe" },
-                        { "class": "yamauchi" },
-                        { "class": "yuki" }
-                    ]
-                }
-            ]
-        },
-        "fallofthesamurai": {
-            "title": "Fall of the Samurai",
-            "prefix": "sh2-fots",
-            "parent": "sh2-fots",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "aizu" },
-                        { "class": "choshu" },
-                        { "class": "jozai" },
-                        { "class": "nagaoka" },
-                        { "class": "obama" },
-                        { "class": "saga" },
-                        { "class": "satsuma" },
-                        { "class": "sendai" },
-                        { "class": "tosa" },
-                        { "class": "tsu" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "awaji-sumoto", "display": "Awaji-Sumoto" },
-                        { "class": "edo" },
-                        { "class": "france" },
-                        { "class": "fukue" },
-                        { "class": "fukui" },
-                        { "class": "fukuoka" },
-                        { "class": "fukuyama" },
-                        { "class": "greatbritain", "display": "Great Britain"} ,
-                        { "class": "gujohachiman" },
-                        { "class": "hikone" },
-                        { "class": "hirado" },
-                        { "class": "hirosaki" },
-                        { "class": "hiroshima" },
-                        { "class": "imperial" },
-                        { "class": "iwakuni" },
-                        { "class": "kakegawa" },
-                        { "class": "kanazawa" },
-                        { "class": "kofu" },
-                        { "class": "koga" },
-                        { "class": "kokura" },
-                        { "class": "kubota" },
-                        { "class": "kumamoto" },
-                        { "class": "kuwana" },
-                        { "class": "marugame" },
-                        { "class": "matsue" },
-                        { "class": "matsumae" },
-                        { "class": "matsumoto" },
-                        { "class": "matsushiro" },
-                        { "class": "matsuyama" },
-                        { "class": "mito" },
-                        { "class": "miyazu" },
-                        { "class": "morioka" },
-                        { "class": "nagoya" },
-                        { "class": "nobeoka" },
-                        { "class": "numata" },
-                        { "class": "odawara" },
-                        { "class": "oka" },
-                        { "class": "okayama" },
-                        { "class": "okazaki" },
-                        { "class": "ozu" },
-                        { "class": "sado" },
-                        { "class": "sasayama" },
-                        { "class": "sayama" },
-                        { "class": "shogunate" },
-                        { "class": "sunpu" },
-                        { "class": "takatori" },
-                        { "class": "takatsuki" },
-                        { "class": "takayama" },
-                        { "class": "tanegashima" },
-                        { "class": "tatsuno" },
-                        { "class": "tokushima" },
-                        { "class": "tottori" },
-                        { "class": "toyama" },
-                        { "class": "toyooka" },
-                        { "class": "tsushima-fuchu", "display": "Tsushima-Fuchu" },
-                        { "class": "tsuwano" },
-                        { "class": "tsuyama" },
-                        { "class": "usa", "display": "United States of America" },
-                        { "class": "utsunomiya" },
-                        { "class": "wakayama" },
-                        { "class": "yodo" },
-                        { "class": "yonezawa" },
-                        { "class": "yonago" }
-                    ]
-                }
-            ]
-        }
-    },
-    "napoleon": {
-        "tab-display": "Napoleon",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "nap",
-            "parent": "nap",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "austria-monarchy", "display": "Austria (Monarchy)" },
-                        { "class": "austria-republic", "display": "Austria (Republic)" },
-                        { "class": "france-monarchy", "display": "France (Monarchy)" },
-                        { "class": "france-republic", "display": "France (Republic)" },
-                        { "class": "greatbritain-monarchy", "display": "Great Britain (Monarchy)" },
-                        { "class": "greatbritain-republic", "display": "Great Britain (Republic)" },
-                        { "class": "prussia-monarchy", "display": "Prussia (Monarchy)" },
-                        { "class": "prussia-republic", "display": "Prussia (Republic)" },
-                        { "class": "russia-monarchy", "display": "Russia (Monarchy)" },
-                        { "class": "russia-republic", "display": "Russia (Republic)" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "baden-wurttemberg", "display": "Baden-Wurttemberg" },
-                        { "class": "batavian-republic", "display": "Batavian Republic" },
-                        { "class": "bavaria" },
-                        { "class": "denmark" },
-                        { "class": "hessen" },
-                        { "class": "kingdomofitaly", "display": "Kingdom of Italy" },
-                        { "class": "kingdomofnaples", "display": "Kingdom of Naples" },
-                        { "class": "piedmont-sardinia", "display": "Kingdom of Sardinia" },
-                        { "class": "kingdomofsicily", "display": "Kingdom of Siciliy" },
-                        { "class": "mecklenburg" },
-                        { "class": "oldenburg" },
-                        { "class": "ottomanempire-monarchy", "display": "Ottoman Empire (Monarchy)" },
-                        { "class": "ottomanempire-republic", "display": "Ottoman Empire (Republic)" },
-                        { "class": "papalstates", "display": "Papal States" },
-                        { "class": "portugal" },
-                        { "class": "saxony" },
-                        { "class": "spain-monarchy", "display": "Spain (Monarchy)" },
-                        { "class": "spain-republic", "display": "Spain (Republic)" },
-                        { "class": "sweden" },
-                        { "class": "swiss-confederation", "display": "Swiss Confederation" }
-                    ]
-                },
-                {
-                    "title": "Emerging",
-                    "flairs": [
-                        { "class": "belgium" },
-                        { "class": "brittany" },
-                        { "class": "catalonia" },
-                        { "class": "courland" },
-                        { "class": "crimean-khanate", "display": "Crimean Khanate" },
-                        { "class": "greece "},
-                        { "class": "hannover" },
-                        { "class": "hungary" },
-                        { "class": "ireland" },
-                        { "class": "italy" },
-                        { "class": "norway" },
-                        { "class": "poland" },
-                        { "class": "romania" },
-                        { "class": "scotland" },
-                        { "class": "united-netherlands", "display": "United Netherlands" },
-                        { "class": "westphalia" }
-                    ]
-                }
-            ]
-        },
-        "italian": {
-            "title": "Italian Campaign",
-            "prefix": "nap",
-            "parent": "nap",
-            "flairs": [
-                { "class": "france-republic", "display": "France" },
-                { "class": "austria-monarchy", "display": "Austria" },
-                { "class": "lucca" },
-                { "class": "papalstates", "display": "Papal States" },
-                { "class": "piedmont-sardinia", "display": "Piedmont-Sardinia" },
-                { "class": "tuscany" },
-                { "class": "venice" }
-            ]
-        },
-        "egyptian": {
-            "title": "Egyptian Campaign",
-            "prefix": "nap",
-            "parent": "nap",
-            "flairs": [
-                { "class": "france-republic", "display": "French Republic" },
-                { "class": "bedouin" },
-                { "class": "greatbritain-monarchy", "display": "Great Britain" },
-                { "class": "mamelukes" },
-                { "class": "ottomanempire-monarchy", "display": "Ottoman Empire" }
-            ]
-        },
-        "peninsular": {
-            "title": "Peninsular Campaign",
-            "prefix": "nap",
-            "parent": "nap",
-            "flairs": [
-                { "class": "france-republic", "display": "France" },
-                { "class": "greatbritain-monarchy", "display": "Great Britain" },
-                { "class": "spain-peninsular", "display": "Spain" },
-                { "class": "portugal" }
-            ]
-        }
-    },
-    "empire": {
-        "tab-display": "Empire",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "em",
-            "parent": "em",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "austria-monarchy", "display": "Austria (Monarchy)" },
-                        { "class": "austria-republic", "display": "Austria (Republic)" },
-                        { "class": "france-monarchy", "display": "France (Monarchy)" },
-                        { "class": "france-republic", "display": "France (Republic)" },
-                        { "class": "greatbritain-monarchy", "display": "Great Britain (Monarchy)" },
-                        { "class": "greatbritain-republic", "display": "Great Britain (Republic)" },
-                        { "class": "marathaconfederacy-monarchy", "display": "Maratha Confederacy (Monarchy)" },
-                        { "class": "marathaconfederacy-republic", "display": "Maratha Confederacy (Republic)" },
-                        { "class": "ottomanempire-monarchy", "display": "Ottoman Empire (Monarchy)" },
-                        { "class": "ottomanempire-republic", "display": "Ottoman Empire (Republic)" },
-                        { "class": "poland-lithuania-monarchy", "display": "Poland-Lithuania (Monarchy)" },
-                        { "class": "poland-lithuania-republic", "display": "Poland-Lithuania (Republic)" },
-                        { "class": "prussia-monarchy", "display": "Prussia (Monarchy)" },
-                        { "class": "prussia-republic", "display": "Prussia (Republic)" },
-                        { "class": "russia-monarchy", "display": "Russia (Monarchy)" },
-                        { "class": "russia-republic", "display": "Russia (Republic)" },
-                        { "class": "spain-monarchy", "display": "Spain (Monarchy)" },
-                        { "class": "spain-republic", "display": "Spain (Republic)" },
-                        { "class": "sweden-monarchy", "display": "Sweden (Monarchy)" },
-                        { "class": "sweden-republic", "display": "Sweden (Republic)" },
-                        { "class": "unitedprovinces-monarchy", "display": "United Provinces (Monarchy)" },
-                        { "class": "unitedprovinces-republic", "display": "United Provinces (Republic)" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "barbarystates-monarchy", "display": "Barbary States (Monarchy)" },
-                        { "class": "barbarystates-republic", "display": "Barbary States (Republic)" },
-                        { "class": "bavaria" },
-                        { "class": "cherokeenations", "display": "Cherokee Nations" },
-                        { "class": "courland" },
-                        { "class": "crimeankhanate", "display": "Crimean Khanate" },
-                        { "class": "dagestan" },
-                        { "class": "denmark-monarchy", "display": "Denmark (Monarchy)" },
-                        { "class": "denmark-republic", "display": "Denmark (Republic)" },
-                        { "class": "genoa" },
-                        { "class": "georgia" },
-                        { "class": "hannover" },
-                        { "class": "huronconfederacy", "display": "Huron-Wyandot" },
-                        { "class": "inuitnations", "display": "Inuit Nations" },
-                        { "class": "iroquoisconfederacy", "display": "Iroquois Confederacy" },
-                        { "class": "italianstates", "display": "Italian States" },
-                        { "class": "knightsofstjohn", "display": "Knights of St. John" },
-                        { "class": "louisiana" },
-                        { "class": "morocco" },
-                        { "class": "mughalempire-monarchy", "display": "Mughal Empire (Monarchy)" },
-                        { "class": "mughalempire-republic", "display": "Mughal Empire (Republic)" },
-                        { "class": "mysore" },
-                        { "class": "newspain", "display": "New Spain" },
-                        { "class": "persia" },
-                        { "class": "pirates" },
-                        { "class": "plainsnations", "display": "Plains Nations" },
-                        { "class": "portugal" },
-                        { "class": "pueblonations", "display": "Pueblo Nations" },
-                        { "class": "savoy" },
-                        { "class": "saxony" },
-                        { "class": "thirteencolonies-monarchy", "display": "Thirteen Colonies (Monarchy)" },
-                        { "class": "venice" },
-                        { "class": "westphalia" },
-                        { "class": "wurttemburg" }
-                    ]
-                },
-                {
-                    "title": "Unused",
-                    "flairs": [
-                        { "class": "schleswig-holstein" },
-                        { "class": "tuscany" },
-                        { "class": "swissconfederation", "display": "Swiss Confederation" },
-                        { "class": "khanateofkhiva", "display": "Khanate of Khiva" },
-                        { "class": "mecklenburg" }
-                    ]
-                },
-                {
-                    "title": "Emerging",
-                    "flairs": [
-                        { "class": "afghanistan" },
-                        { "class": "grancolombia", "display": "Gran Colombia" },
-                        { "class": "greece" },
-                        { "class": "hessen" },
-                        { "class": "hungary" },
-                        { "class": "ireland" },
-                        { "class": "mamelukes" },
-                        { "class": "mexico" },
-                        { "class": "naplessicily", "display": "Naples & Sicily" },
-                        { "class": "norway" },
-                        { "class": "punjab" },
-                        { "class": "quebec" },
-                        { "class": "scotland" },
-                        { "class": "us-monarchy", "display": "United States (Monarchy)" },
-                        { "class": "us-republic", "display": "United States (Republic)" }
-                    ]
-                }
-            ]
-        },
-        "campaigns": {
-            "title": "Campaigns",
-            "prefix": "em",
-            "parent": "em",
-            "flairs": [
-                {
-                    "title": "Road to Independence",
-                    "flairs": [
-                        { "class": "greatbritain-republic", "display": "British Colonials" },
-                        { "class": "powhatanconfederacy", "display": "Powhatan Confederacy" },
-                        { "class": "us-republic", "display": "United States" },
-                        { "class": "virginiacolonists", "display": "Virginia Colonists" }
-                    ]
-                },
-                {
-                    "title": "Warpath Campaign",
-                    "flairs": [
-                        { "class": "cherokeenations", "display": "Cherokee Nations" },
-                        { "class": "huronconfederacy", "display": "Huron-Wyandot" },
-                        { "class": "iroquoisconfederacy", "display": "Iroquois Confederacy" },
-                        { "class": "plainsnations", "display": "Plains Nations" },
-                        { "class": "pueblonations", "display": "Pueblo Nations" }
-                    ]
-                }
-            ]
-        }
-    },
-    "medieval2": {
-        "tab-display": "Medieval II",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "m2",
-            "parent": "m2",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "byzantineempire", "display": "The Byzantine Empire" },
-                        { "class": "denmark" },
-                        { "class": "egypt" },
-                        { "class": "england" },
-                        { "class": "france" },
-                        { "class": "holyromanempire", "display": "The Holy Roman Empire" },
-                        { "class": "hungary" },
-                        { "class": "milan" },
-                        { "class": "moors" },
-                        { "class": "poland" },
-                        { "class": "portugal" },
-                        { "class": "russia" },
-                        { "class": "scotland" },
-                        { "class": "sicily" },
-                        { "class": "spain" },
-                        { "class": "turks", "display": "The Turks" },
-                        { "class": "venice" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "aztecs" },
-                        { "class": "mongols" },
-                        { "class": "papalstates", "display": "Papal States" },
-                        { "class": "rebels" },
-                        { "class": "timurids" }
-                    ]
-                }
-            ]
-        },
-        "kingdoms": {
-            "title": "Kingdoms",
-            "prefix": "m2",
-            "parent": "m2",
-            "flairs": [
-                {
-                    "title": "Americas Campaign",
-                    "flairs": [
-                        { "class": "apachean", "display": "Apachean Tribes" },
-                        { "class": "aztecs", "display": "The Aztec Empire" },
-                        { "class": "chichimec", "display": "Chichimec Tribes" },
-                        { "class": "england" },
-                        { "class": "france", "display": "New France" },
-                        { "class": "mayans", "display": "The Mayans" },
-                        { "class": "spain", "display": "New Spain" },
-                        { "class": "tarascans", "display": "The Tarascans" },
-                        { "class": "tlaxcalans", "display": "The Tlaxcalans" }
-                    ]
-                },
-                {
-                    "title": "Britannia Campaign",
-                    "flairs": [
-                        { "class": "baronsalliance", "display": "Baron's Alliance" },
-                        { "class": "england" },
-                        { "class": "ireland" },
-                        { "class": "norway" },
-                        { "class": "scotland" },
-                        { "class": "wales" }
-                    ]
-                },
-                {
-                    "title": "Crusades Campaign",
-                    "flairs": [
-                        { "class": "antioch", "display": "Principality of Antioch" },
-                        { "class": "byzantineempire", "display": "The Byzantine Empire" },
-                        { "class": "egypt" },
-                        { "class": "jerusalem", "display": "Kingdom of Jerusalem" },
-                        { "class": "mongols" },
-                        { "class": "turks", "display": "The Turks" },
-                        { "class": "venice" }
-                    ]
-                },
-                {
-                    "title": "Teutonic Campaign",
-                    "flairs": [
-                        { "class": "denmark" },
-                        { "class": "holyromanempire", "display": "The Holy Roman Empire" },
-                        { "class": "lithuania" },
-                        { "class": "mongols" },
-                        { "class": "norway" },
-                        { "class": "novgorod" },
-                        { "class": "poland" },
-                        { "class": "teutonicorder", "display": "Teutonic Order" }
-                    ]
-                }
-            ]
-        }
-    },
-    "rome": {
-        "tab-display": "Rome",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "r1",
-            "parent": "r1",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "britons", "display": "Britannia" },
-                        { "class": "carthage" },
-                        { "class": "egypt" },
-                        { "class": "gauls", "display": "Gaul" },
-                        { "class": "germans", "display": "Germania" },
-                        { "class": "greekcities", "display": "Greek Cities" },
-                        { "class": "houseofbrutii", "display": "House of Brutii" },
-                        { "class": "houseofjulii", "display": "House of Julii" },
-                        { "class": "houseofscipii", "display": "House of Scipii" },
-                        { "class": "parthia" },
-                        { "class": "seleucid", "display": "The Seleucid Empire" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "armenia" },
-                        { "class": "dacia" },
-                        { "class": "kingdomofpontus", "display": "Kingdom of Pontus" },
-                        { "class": "macedon" },
-                        { "class": "numidia" },
-                        { "class": "romansenate", "display": "Roman Senate" },
-                        { "class": "scythia" },
-                        { "class": "slaves" },
-                        { "class": "spain" },
-                        { "class": "thrace" }
-                    ]
-                }
-            ]
-        },
-        "barbarian-invasion": {
-            "title": "Barbarian Invasion",
-            "prefix": "r1",
-            "parent": "r1",
-            "flairs": [
-                {
-                    "title": "Playable",
-                    "flairs": [
-                        { "class": "alemanni" },
-                        { "class": "easternromanempire", "display": "Eastern Roman Empire" },
-                        { "class": "franks" },
-                        { "class": "goths" },
-                        { "class": "huns", "display": "The Huns" },
-                        { "class": "sarmatians" },
-                        { "class": "sassanids" },
-                        { "class": "saxons" },
-                        { "class": "vandals" },
-                        { "class": "westernromanempire", "display": "Western Roman Empire" }
-                    ]
-                },
-                {
-                    "title": "Non-Playable",
-                    "flairs": [
-                        { "class": "berbers" },
-                        { "class": "burgundii" },
-                        { "class": "celts" },
-                        { "class": "lombardi" },
-                        { "class": "moors" },
-                        { "class": "ostrogoths" },
-                        { "class": "romano-british", "display": "Romano-British" },
-                        { "class": "roxolani" },
-                        { "class": "slavs" },
-                        { "class": "whitehuns", "display": "The White Huns" }
-                    ]
-                }
-            ]
-        },
-        "alexander": {
-            "title": "Alexander",
-            "prefix": "r1",
-            "parent": "r1",
-            "flairs": [
-                { "class": "dahae" },
-                { "class": "illyria" },
-                { "class": "india" },
-                { "class": "macedon-alex", "display": "Macedon" },
-                { "class": "persia" },
-                { "class": "scythia-alex", "display": "Scythia" },
-                { "class": "thrace-alex", "display": "Thrace" }
-            ]
-        }
-    },
-    "medieval": {
-        "tab-display": "Medieval",
-        "playable": {
-            "message": "Medieval: Total War flairs are not available.",
-            "prefix": "m1",
-            "parent": "m1"
-        }
-    },
-    "shogun": {
-        "tab-display": "Shogun",
-        "grand-campaign": {
-            "title": "Grand Campaign",
-            "prefix": "sh1",
-            "parent": "sh1",
-            "flairs": [
-                { "class": "chosokabe" },
-                { "class": "hojo" },
-                { "class": "imagawa" },
-                { "class": "more" },
-                { "class": "oda" },
-                { "class": "rebels" },
-                { "class": "takeda" },
-                { "class": "uesugi" }
-            ]
-        }
-    }
+				{
+					"title": "Caesar in Gaul",
+					"flairs": [
+						{ "class": "boii" },
+						{ "class": "galatia" },
+						{ "class": "nervii" }
+					]
+				},
+				{
+					"title": "Hannibal at the Gates",
+					"flairs": [
+						{ "class": "arevaci" },
+						{ "class": "lusitani" },
+						{ "class": "syracuse" }
+					]
+				},
+				{
+					"title": "Wrath of Sparta",
+					"flairs": [
+						{ "class": "athenai" },
+						{ "class": "sparta-wos", "display": "Sparta" },
+						{ "class": "boiotianleague", "display": "Boiotian League" },
+						{ "class": "korinthos" }
+					]
+				},
+				{
+					"title": "Imperator Augustus",
+					"flairs": [
+						{ "class": "antonysrome", "display": "Antony's Rome" },
+						{ "class": "lepidusrome", "display": "Lepidus' Rome" },
+						{ "class": "octaviansrome", "display": "Octavian's Rome" }
+					]
+				}
+			]
+		},
+		"culture-packs": {
+			"title": "Culture Packs",
+			"prefix": "r2",
+			"parent": "r2",
+			"flairs": [
+				{
+					"title": "The Greek States",
+					"flairs": [
+						{ "class": "athens" },
+						{ "class": "epirus" },
+						{ "class": "sparta" }
+					]
+				},
+				{
+					"title": "The Nomadic Tribes",
+					"flairs": [
+						{ "class": "massagetae" },
+						{ "class": "roxolani" },
+						{ "class": "royalscythia", "display": "Royal Scythia" }
+					]
+				},
+				{
+					"title": "Pirates and Raiders",
+					"flairs": [
+						{ "class": "ardiaei" },
+						{ "class": "odrysiankingdom", "display": "Odrysian Kingdom" },
+						{ "class": "tylis" }
+					]
+				},
+				{
+					"title": "Black Sea Colonies",
+					"flairs": [
+						{ "class": "cimmeria" },
+						{ "class": "colchis" },
+						{ "class": "pergamon" }
+					]
+				}
+			]
+		}
+	},
+	"shogun2": {
+		"tab-display": "Shogun 2",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "sh2",
+			"parent": "sh2",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "chosokabe" },
+						{ "class": "date" },
+						{ "class": "hattori" },
+						{ "class": "hojo" },
+						{ "class": "ikkoikki" },
+						{ "class": "mori" },
+						{ "class": "oda" },
+						{ "class": "otomo" },
+						{ "class": "shimazu" },
+						{ "class": "takeda" },
+						{ "class": "tokugawa" },
+						{ "class": "uesugi" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "amako" },
+						{ "class": "anegakoji" },
+						{ "class": "asai" },
+						{ "class": "asano" },
+						{ "class": "ashikaga" },
+						{ "class": "ashina" },
+						{ "class": "bessho" },
+						{ "class": "europeantraders", "display": "European Traders" },
+						{ "class": "hatakeyama" },
+						{ "class": "hatano" },
+						{ "class": "honma" },
+						{ "class": "hosokawa" },
+						{ "class": "imagawa" },
+						{ "class": "ishida" },
+						{ "class": "ito" },
+						{ "class": "jinbo" },
+						{ "class": "kikkawa" },
+						{ "class": "kiso" },
+						{ "class": "kitabatake" },
+						{ "class": "kobayakawa" },
+						{ "class": "kono" },
+						{ "class": "kuroda" },
+						{ "class": "matsuda" },
+						{ "class": "miyoshi" },
+						{ "class": "mogami" },
+						{ "class": "murakami" },
+						{ "class": "ogigayatsu" },
+						{ "class": "ouchi" },
+						{ "class": "sagara" },
+						{ "class": "saito" },
+						{ "class": "sakai" },
+						{ "class": "satake" },
+						{ "class": "satomi" },
+						{ "class": "shoni" },
+						{ "class": "sogo" },
+						{ "class": "takaoka" },
+						{ "class": "toyotomi" },
+						{ "class": "tsutsui" },
+						{ "class": "ukita" },
+						{ "class": "urakami" },
+						{ "class": "utsonomiya" },
+						{ "class": "wako" },
+						{ "class": "wakopirates", "display": "Wako Pirates" },
+						{ "class": "yamana" },
+						{ "class": "yamanouchi" }
+					]
+				}
+			]
+		},
+		"riseofthesamurai": {
+			"title": "Rise of the Samurai",
+			"prefix": "sh2-rots",
+			"parent": "sh2-rots",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "fukuhara-taira", "display": "Fukuhara Taira" },
+						{ "class": "hiraizumi-fujiwara", "display": "Hiraizumi Fjiwara" },
+						{ "class": "kamakura-minamoto", "display": "Kamakura Minamoto" },
+						{ "class": "kiso-minamoto", "display": "Kiso Minamoto" },
+						{ "class": "kubota-fujiwara", "display": "Kubota Fujiwara" },
+						{ "class": "yashima-taira", "display": "Yashima Taira" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "adachi" },
+						{ "class": "akamatsu" },
+						{ "class": "akizuki" },
+						{ "class": "amakasu" },
+						{ "class": "ariwara" },
+						{ "class": "ashikaga" },
+						{ "class": "chiba" },
+						{ "class": "daisuke" },
+						{ "class": "doi" },
+						{ "class": "edo" },
+						{ "class": "hasebe" },
+						{ "class": "hata" },
+						{ "class": "hatakeyama" },
+						{ "class": "honda" },
+						{ "class": "ii" },
+						{ "class": "inoue" },
+						{ "class": "ishikawa" },
+						{ "class": "isonokami" },
+						{ "class": "ito" },
+						{ "class": "kagawa" },
+						{ "class": "kaizokupirates", "display": "Kaizoku Pirates" },
+						{ "class": "kajiwara" },
+						{ "class": "kibi" },
+						{ "class": "kikuchi" },
+						{ "class": "kitabatake" },
+						{ "class": "kiyohara" },
+						{ "class": "kobayakawa" },
+						{ "class": "koide" },
+						{ "class": "kono" },
+						{ "class": "kusunoki" },
+						{ "class": "kyogoku" },
+						{ "class": "masuda" },
+						{ "class": "nitta" },
+						{ "class": "ochi" },
+						{ "class": "ogata" },
+						{ "class": "okura" },
+						{ "class": "ouchi" },
+						{ "class": "sasaki" },
+						{ "class": "satake" },
+						{ "class": "seno" },
+						{ "class": "shiba" },
+						{ "class": "shinmen" },
+						{ "class": "soga" },
+						{ "class": "soma" },
+						{ "class": "sugawara" },
+						{ "class": "takahashi" },
+						{ "class": "takami" },
+						{ "class": "takeda" },
+						{ "class": "tatara" },
+						{ "class": "toki" },
+						{ "class": "urakami" },
+						{ "class": "watanabe" },
+						{ "class": "yamauchi" },
+						{ "class": "yuki" }
+					]
+				}
+			]
+		},
+		"fallofthesamurai": {
+			"title": "Fall of the Samurai",
+			"prefix": "sh2-fots",
+			"parent": "sh2-fots",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "aizu" },
+						{ "class": "choshu" },
+						{ "class": "jozai" },
+						{ "class": "nagaoka" },
+						{ "class": "obama" },
+						{ "class": "saga" },
+						{ "class": "satsuma" },
+						{ "class": "sendai" },
+						{ "class": "tosa" },
+						{ "class": "tsu" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "awaji-sumoto", "display": "Awaji-Sumoto" },
+						{ "class": "edo" },
+						{ "class": "france" },
+						{ "class": "fukue" },
+						{ "class": "fukui" },
+						{ "class": "fukuoka" },
+						{ "class": "fukuyama" },
+						{ "class": "greatbritain", "display": "Great Britain"} ,
+						{ "class": "gujohachiman" },
+						{ "class": "hikone" },
+						{ "class": "hirado" },
+						{ "class": "hirosaki" },
+						{ "class": "hiroshima" },
+						{ "class": "imperial" },
+						{ "class": "iwakuni" },
+						{ "class": "kakegawa" },
+						{ "class": "kanazawa" },
+						{ "class": "kofu" },
+						{ "class": "koga" },
+						{ "class": "kokura" },
+						{ "class": "kubota" },
+						{ "class": "kumamoto" },
+						{ "class": "kuwana" },
+						{ "class": "marugame" },
+						{ "class": "matsue" },
+						{ "class": "matsumae" },
+						{ "class": "matsumoto" },
+						{ "class": "matsushiro" },
+						{ "class": "matsuyama" },
+						{ "class": "mito" },
+						{ "class": "miyazu" },
+						{ "class": "morioka" },
+						{ "class": "nagoya" },
+						{ "class": "nobeoka" },
+						{ "class": "numata" },
+						{ "class": "odawara" },
+						{ "class": "oka" },
+						{ "class": "okayama" },
+						{ "class": "okazaki" },
+						{ "class": "ozu" },
+						{ "class": "sado" },
+						{ "class": "sasayama" },
+						{ "class": "sayama" },
+						{ "class": "shogunate" },
+						{ "class": "sunpu" },
+						{ "class": "takatori" },
+						{ "class": "takatsuki" },
+						{ "class": "takayama" },
+						{ "class": "tanegashima" },
+						{ "class": "tatsuno" },
+						{ "class": "tokushima" },
+						{ "class": "tottori" },
+						{ "class": "toyama" },
+						{ "class": "toyooka" },
+						{ "class": "tsushima-fuchu", "display": "Tsushima-Fuchu" },
+						{ "class": "tsuwano" },
+						{ "class": "tsuyama" },
+						{ "class": "usa", "display": "United States of America" },
+						{ "class": "utsunomiya" },
+						{ "class": "wakayama" },
+						{ "class": "yodo" },
+						{ "class": "yonezawa" },
+						{ "class": "yonago" }
+					]
+				}
+			]
+		}
+	},
+	"napoleon": {
+		"tab-display": "Napoleon",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "nap",
+			"parent": "nap",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "austria-monarchy", "display": "Austria (Monarchy)" },
+						{ "class": "austria-republic", "display": "Austria (Republic)" },
+						{ "class": "france-monarchy", "display": "France (Monarchy)" },
+						{ "class": "france-republic", "display": "France (Republic)" },
+						{ "class": "greatbritain-monarchy", "display": "Great Britain (Monarchy)" },
+						{ "class": "greatbritain-republic", "display": "Great Britain (Republic)" },
+						{ "class": "prussia-monarchy", "display": "Prussia (Monarchy)" },
+						{ "class": "prussia-republic", "display": "Prussia (Republic)" },
+						{ "class": "russia-monarchy", "display": "Russia (Monarchy)" },
+						{ "class": "russia-republic", "display": "Russia (Republic)" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "baden-wurttemberg", "display": "Baden-Wurttemberg" },
+						{ "class": "batavian-republic", "display": "Batavian Republic" },
+						{ "class": "bavaria" },
+						{ "class": "denmark" },
+						{ "class": "hessen" },
+						{ "class": "kingdomofitaly", "display": "Kingdom of Italy" },
+						{ "class": "kingdomofnaples", "display": "Kingdom of Naples" },
+						{ "class": "piedmont-sardinia", "display": "Kingdom of Sardinia" },
+						{ "class": "kingdomofsicily", "display": "Kingdom of Siciliy" },
+						{ "class": "mecklenburg" },
+						{ "class": "oldenburg" },
+						{ "class": "ottomanempire-monarchy", "display": "Ottoman Empire (Monarchy)" },
+						{ "class": "ottomanempire-republic", "display": "Ottoman Empire (Republic)" },
+						{ "class": "papalstates", "display": "Papal States" },
+						{ "class": "portugal" },
+						{ "class": "saxony" },
+						{ "class": "spain-monarchy", "display": "Spain (Monarchy)" },
+						{ "class": "spain-republic", "display": "Spain (Republic)" },
+						{ "class": "sweden" },
+						{ "class": "swiss-confederation", "display": "Swiss Confederation" }
+					]
+				},
+				{
+					"title": "Emerging",
+					"flairs": [
+						{ "class": "belgium" },
+						{ "class": "brittany" },
+						{ "class": "catalonia" },
+						{ "class": "courland" },
+						{ "class": "crimean-khanate", "display": "Crimean Khanate" },
+						{ "class": "greece "},
+						{ "class": "hannover" },
+						{ "class": "hungary" },
+						{ "class": "ireland" },
+						{ "class": "italy" },
+						{ "class": "norway" },
+						{ "class": "poland" },
+						{ "class": "romania" },
+						{ "class": "scotland" },
+						{ "class": "united-netherlands", "display": "United Netherlands" },
+						{ "class": "westphalia" }
+					]
+				}
+			]
+		},
+		"italian": {
+			"title": "Italian Campaign",
+			"prefix": "nap",
+			"parent": "nap",
+			"flairs": [
+				{ "class": "france-republic", "display": "France" },
+				{ "class": "austria-monarchy", "display": "Austria" },
+				{ "class": "lucca" },
+				{ "class": "papalstates", "display": "Papal States" },
+				{ "class": "piedmont-sardinia", "display": "Piedmont-Sardinia" },
+				{ "class": "tuscany" },
+				{ "class": "venice" }
+			]
+		},
+		"egyptian": {
+			"title": "Egyptian Campaign",
+			"prefix": "nap",
+			"parent": "nap",
+			"flairs": [
+				{ "class": "france-republic", "display": "French Republic" },
+				{ "class": "bedouin" },
+				{ "class": "greatbritain-monarchy", "display": "Great Britain" },
+				{ "class": "mamelukes" },
+				{ "class": "ottomanempire-monarchy", "display": "Ottoman Empire" }
+			]
+		},
+		"peninsular": {
+			"title": "Peninsular Campaign",
+			"prefix": "nap",
+			"parent": "nap",
+			"flairs": [
+				{ "class": "france-republic", "display": "France" },
+				{ "class": "greatbritain-monarchy", "display": "Great Britain" },
+				{ "class": "spain-peninsular", "display": "Spain" },
+				{ "class": "portugal" }
+			]
+		}
+	},
+	"empire": {
+		"tab-display": "Empire",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "em",
+			"parent": "em",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "austria-monarchy", "display": "Austria (Monarchy)" },
+						{ "class": "austria-republic", "display": "Austria (Republic)" },
+						{ "class": "france-monarchy", "display": "France (Monarchy)" },
+						{ "class": "france-republic", "display": "France (Republic)" },
+						{ "class": "greatbritain-monarchy", "display": "Great Britain (Monarchy)" },
+						{ "class": "greatbritain-republic", "display": "Great Britain (Republic)" },
+						{ "class": "marathaconfederacy-monarchy", "display": "Maratha Confederacy (Monarchy)" },
+						{ "class": "marathaconfederacy-republic", "display": "Maratha Confederacy (Republic)" },
+						{ "class": "ottomanempire-monarchy", "display": "Ottoman Empire (Monarchy)" },
+						{ "class": "ottomanempire-republic", "display": "Ottoman Empire (Republic)" },
+						{ "class": "poland-lithuania-monarchy", "display": "Poland-Lithuania (Monarchy)" },
+						{ "class": "poland-lithuania-republic", "display": "Poland-Lithuania (Republic)" },
+						{ "class": "prussia-monarchy", "display": "Prussia (Monarchy)" },
+						{ "class": "prussia-republic", "display": "Prussia (Republic)" },
+						{ "class": "russia-monarchy", "display": "Russia (Monarchy)" },
+						{ "class": "russia-republic", "display": "Russia (Republic)" },
+						{ "class": "spain-monarchy", "display": "Spain (Monarchy)" },
+						{ "class": "spain-republic", "display": "Spain (Republic)" },
+						{ "class": "sweden-monarchy", "display": "Sweden (Monarchy)" },
+						{ "class": "sweden-republic", "display": "Sweden (Republic)" },
+						{ "class": "unitedprovinces-monarchy", "display": "United Provinces (Monarchy)" },
+						{ "class": "unitedprovinces-republic", "display": "United Provinces (Republic)" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "barbarystates-monarchy", "display": "Barbary States (Monarchy)" },
+						{ "class": "barbarystates-republic", "display": "Barbary States (Republic)" },
+						{ "class": "bavaria" },
+						{ "class": "cherokeenations", "display": "Cherokee Nations" },
+						{ "class": "courland" },
+						{ "class": "crimeankhanate", "display": "Crimean Khanate" },
+						{ "class": "dagestan" },
+						{ "class": "denmark-monarchy", "display": "Denmark (Monarchy)" },
+						{ "class": "denmark-republic", "display": "Denmark (Republic)" },
+						{ "class": "genoa" },
+						{ "class": "georgia" },
+						{ "class": "hannover" },
+						{ "class": "huronconfederacy", "display": "Huron-Wyandot" },
+						{ "class": "inuitnations", "display": "Inuit Nations" },
+						{ "class": "iroquoisconfederacy", "display": "Iroquois Confederacy" },
+						{ "class": "italianstates", "display": "Italian States" },
+						{ "class": "knightsofstjohn", "display": "Knights of St. John" },
+						{ "class": "louisiana" },
+						{ "class": "morocco" },
+						{ "class": "mughalempire-monarchy", "display": "Mughal Empire (Monarchy)" },
+						{ "class": "mughalempire-republic", "display": "Mughal Empire (Republic)" },
+						{ "class": "mysore" },
+						{ "class": "newspain", "display": "New Spain" },
+						{ "class": "persia" },
+						{ "class": "pirates" },
+						{ "class": "plainsnations", "display": "Plains Nations" },
+						{ "class": "portugal" },
+						{ "class": "pueblonations", "display": "Pueblo Nations" },
+						{ "class": "savoy" },
+						{ "class": "saxony" },
+						{ "class": "thirteencolonies-monarchy", "display": "Thirteen Colonies (Monarchy)" },
+						{ "class": "venice" },
+						{ "class": "westphalia" },
+						{ "class": "wurttemburg" }
+					]
+				},
+				{
+					"title": "Unused",
+					"flairs": [
+						{ "class": "schleswig-holstein" },
+						{ "class": "tuscany" },
+						{ "class": "swissconfederation", "display": "Swiss Confederation" },
+						{ "class": "khanateofkhiva", "display": "Khanate of Khiva" },
+						{ "class": "mecklenburg" }
+					]
+				},
+				{
+					"title": "Emerging",
+					"flairs": [
+						{ "class": "afghanistan" },
+						{ "class": "grancolombia", "display": "Gran Colombia" },
+						{ "class": "greece" },
+						{ "class": "hessen" },
+						{ "class": "hungary" },
+						{ "class": "ireland" },
+						{ "class": "mamelukes" },
+						{ "class": "mexico" },
+						{ "class": "naplessicily", "display": "Naples & Sicily" },
+						{ "class": "norway" },
+						{ "class": "punjab" },
+						{ "class": "quebec" },
+						{ "class": "scotland" },
+						{ "class": "us-monarchy", "display": "United States (Monarchy)" },
+						{ "class": "us-republic", "display": "United States (Republic)" }
+					]
+				}
+			]
+		},
+		"campaigns": {
+			"title": "Campaigns",
+			"prefix": "em",
+			"parent": "em",
+			"flairs": [
+				{
+					"title": "Road to Independence",
+					"flairs": [
+						{ "class": "greatbritain-republic", "display": "British Colonials" },
+						{ "class": "powhatanconfederacy", "display": "Powhatan Confederacy" },
+						{ "class": "us-republic", "display": "United States" },
+						{ "class": "virginiacolonists", "display": "Virginia Colonists" }
+					]
+				},
+				{
+					"title": "Warpath Campaign",
+					"flairs": [
+						{ "class": "cherokeenations", "display": "Cherokee Nations" },
+						{ "class": "huronconfederacy", "display": "Huron-Wyandot" },
+						{ "class": "iroquoisconfederacy", "display": "Iroquois Confederacy" },
+						{ "class": "plainsnations", "display": "Plains Nations" },
+						{ "class": "pueblonations", "display": "Pueblo Nations" }
+					]
+				}
+			]
+		}
+	},
+	"medieval2": {
+		"tab-display": "Medieval II",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "m2",
+			"parent": "m2",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "byzantineempire", "display": "The Byzantine Empire" },
+						{ "class": "denmark" },
+						{ "class": "egypt" },
+						{ "class": "england" },
+						{ "class": "france" },
+						{ "class": "holyromanempire", "display": "The Holy Roman Empire" },
+						{ "class": "hungary" },
+						{ "class": "milan" },
+						{ "class": "moors" },
+						{ "class": "poland" },
+						{ "class": "portugal" },
+						{ "class": "russia" },
+						{ "class": "scotland" },
+						{ "class": "sicily" },
+						{ "class": "spain" },
+						{ "class": "turks", "display": "The Turks" },
+						{ "class": "venice" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "aztecs" },
+						{ "class": "mongols" },
+						{ "class": "papalstates", "display": "Papal States" },
+						{ "class": "rebels" },
+						{ "class": "timurids" }
+					]
+				}
+			]
+		},
+		"kingdoms": {
+			"title": "Kingdoms",
+			"prefix": "m2",
+			"parent": "m2",
+			"flairs": [
+				{
+					"title": "Americas Campaign",
+					"flairs": [
+						{ "class": "apachean", "display": "Apachean Tribes" },
+						{ "class": "aztecs", "display": "The Aztec Empire" },
+						{ "class": "chichimec", "display": "Chichimec Tribes" },
+						{ "class": "england" },
+						{ "class": "france", "display": "New France" },
+						{ "class": "mayans", "display": "The Mayans" },
+						{ "class": "spain", "display": "New Spain" },
+						{ "class": "tarascans", "display": "The Tarascans" },
+						{ "class": "tlaxcalans", "display": "The Tlaxcalans" }
+					]
+				},
+				{
+					"title": "Britannia Campaign",
+					"flairs": [
+						{ "class": "baronsalliance", "display": "Baron's Alliance" },
+						{ "class": "england" },
+						{ "class": "ireland" },
+						{ "class": "norway" },
+						{ "class": "scotland" },
+						{ "class": "wales" }
+					]
+				},
+				{
+					"title": "Crusades Campaign",
+					"flairs": [
+						{ "class": "antioch", "display": "Principality of Antioch" },
+						{ "class": "byzantineempire", "display": "The Byzantine Empire" },
+						{ "class": "egypt" },
+						{ "class": "jerusalem", "display": "Kingdom of Jerusalem" },
+						{ "class": "mongols" },
+						{ "class": "turks", "display": "The Turks" },
+						{ "class": "venice" }
+					]
+				},
+				{
+					"title": "Teutonic Campaign",
+					"flairs": [
+						{ "class": "denmark" },
+						{ "class": "holyromanempire", "display": "The Holy Roman Empire" },
+						{ "class": "lithuania" },
+						{ "class": "mongols" },
+						{ "class": "norway" },
+						{ "class": "novgorod" },
+						{ "class": "poland" },
+						{ "class": "teutonicorder", "display": "Teutonic Order" }
+					]
+				}
+			]
+		}
+	},
+	"rome": {
+		"tab-display": "Rome",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "r1",
+			"parent": "r1",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "britons", "display": "Britannia" },
+						{ "class": "carthage" },
+						{ "class": "egypt" },
+						{ "class": "gauls", "display": "Gaul" },
+						{ "class": "germans", "display": "Germania" },
+						{ "class": "greekcities", "display": "Greek Cities" },
+						{ "class": "houseofbrutii", "display": "House of Brutii" },
+						{ "class": "houseofjulii", "display": "House of Julii" },
+						{ "class": "houseofscipii", "display": "House of Scipii" },
+						{ "class": "parthia" },
+						{ "class": "seleucid", "display": "The Seleucid Empire" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "armenia" },
+						{ "class": "dacia" },
+						{ "class": "kingdomofpontus", "display": "Kingdom of Pontus" },
+						{ "class": "macedon" },
+						{ "class": "numidia" },
+						{ "class": "romansenate", "display": "Roman Senate" },
+						{ "class": "scythia" },
+						{ "class": "slaves" },
+						{ "class": "spain" },
+						{ "class": "thrace" }
+					]
+				}
+			]
+		},
+		"barbarian-invasion": {
+			"title": "Barbarian Invasion",
+			"prefix": "r1",
+			"parent": "r1",
+			"flairs": [
+				{
+					"title": "Playable",
+					"flairs": [
+						{ "class": "alemanni" },
+						{ "class": "easternromanempire", "display": "Eastern Roman Empire" },
+						{ "class": "franks" },
+						{ "class": "goths" },
+						{ "class": "huns", "display": "The Huns" },
+						{ "class": "sarmatians" },
+						{ "class": "sassanids" },
+						{ "class": "saxons" },
+						{ "class": "vandals" },
+						{ "class": "westernromanempire", "display": "Western Roman Empire" }
+					]
+				},
+				{
+					"title": "Non-Playable",
+					"flairs": [
+						{ "class": "berbers" },
+						{ "class": "burgundii" },
+						{ "class": "celts" },
+						{ "class": "lombardi" },
+						{ "class": "moors" },
+						{ "class": "ostrogoths" },
+						{ "class": "romano-british", "display": "Romano-British" },
+						{ "class": "roxolani" },
+						{ "class": "slavs" },
+						{ "class": "whitehuns", "display": "The White Huns" }
+					]
+				}
+			]
+		},
+		"alexander": {
+			"title": "Alexander",
+			"prefix": "r1",
+			"parent": "r1",
+			"flairs": [
+				{ "class": "dahae" },
+				{ "class": "illyria" },
+				{ "class": "india" },
+				{ "class": "macedon-alex", "display": "Macedon" },
+				{ "class": "persia" },
+				{ "class": "scythia-alex", "display": "Scythia" },
+				{ "class": "thrace-alex", "display": "Thrace" }
+			]
+		}
+	},
+	"medieval": {
+		"tab-display": "Medieval",
+		"playable": {
+			"message": "Medieval: Total War flairs are not available.",
+			"prefix": "m1",
+			"parent": "m1"
+		}
+	},
+	"shogun": {
+		"tab-display": "Shogun",
+		"grand-campaign": {
+			"title": "Grand Campaign",
+			"prefix": "sh1",
+			"parent": "sh1",
+			"flairs": [
+				{ "class": "chosokabe" },
+				{ "class": "hojo" },
+				{ "class": "imagawa" },
+				{ "class": "more" },
+				{ "class": "oda" },
+				{ "class": "rebels" },
+				{ "class": "takeda" },
+				{ "class": "uesugi" }
+			]
+		}
+	}
 }
