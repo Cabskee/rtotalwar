@@ -21,123 +21,261 @@
                 { "class": "arena" }
             ]
         }
-    },
-    "thrones-of-britannia": {
-	"tab-display": "Thrones of Britannia",
-	"playable": {
-	    "title": "Thrones of Britannia",
-	    "prefix": "tob",
-	    "parent": "tob",
-	    "flairs": [
-		{
-		    "title": "Playable",
-		    "flairs": [
-			{ "class": "circenn" },
-			{ "class": "dyflin" },
-			{ "class": "eastengle", "display": "East Engle" },
-			{ "class": "gwined" },
-			{ "class": "mide" },
-			{ "class": "mierce" },
-			{ "class": "northymbre" },
-			{ "class": "stratclut", "display": "Strat Clut" },
-			{ "class": "sudreyar" },
-			{ "class": "westseaxe", "display": "West Seaxe" }
-		    ]
-		},
-		{
-		    "title": "Non-Playable",
-		    "flairs": [
-			{ "class": "ailigh" },
-			{ "class": "airergoidel" },
-			{ "class": "airgialla" },
-			{ "class": "athfochla" },
-			{ "class": "bedeborg" },
-			{ "class": "brechinauc" },
-			{ "class": "bregh" },
-			{ "class": "breifne" },
-			{ "class": "caisil" },
-			{ "class": "cent" },
-			{ "class": "connacht" },
-			{ "class": "cornwalas" },
-			{ "class": "cumbra" },
-			{ "class": "defena" },
-			{ "class": "dene" },
-			{ "class": "desmuma" },
-			{ "class": "djurby" },
-			{ "class": "dornsaete" },
-			{ "class": "dubgaill" },
-			{ "class": "dyfet" },
-			{ "class": "eastsexa", "display": "East Sexa" },
-			{ "class": "finngaill" },
-			{ "class": "gallgoidel" },
-			{ "class": "gliwissig" },
-			{ "class": "grantabru" },
-			{ "class": "gwent" },
-			{ "class": "haeden" },
-			{ "class": "heimiliborg" },
-			{ "class": "hellirborg" },
-			{ "class": "hlymrekr" },
-			{ "class": "holdrness" },
-			{ "class": "hwicce" },
-			{ "class": "hyrlborg" },
-			{ "class": "iarmuma" },
-			{ "class": "jorvik" },
-			{ "class": "laigen" },
-			{ "class": "ledeborg" },
-			{ "class": "moreb" },
-			{ "class": "myrrborg" },
-			{ "class": "narenna" },
-			{ "class": "nordmann" },
-			{ "class": "normaunds" },
-			{ "class": "norse" },
-			{ "class": "northsexa" },
-			{ "class": "orkneyar" },
-			{ "class": "osraighi" },
-			{ "class": "powis" },
-			{ "class": "seisilwig" },
-			{ "class": "steinnborg" },
-			{ "class": "suthsexa" },
-			{ "class": "tuadmuma" },
-			{ "class": "uladh" },
-			{ "class": "vedrafjordr" },
-			{ "class": "veidrborg" },
-			{ "class": "veisafjordr" },
-			{ "class": "vikings" },
-			{ "class": "westmoringas" }
-		    ]
-		},
-		{
-		    "title": "Rebels",
-		    "flairs": [
-			{ "class": "rebelsenglish", "display": "English Rebels" },
-			{ "class": "rebelsirish", "display": "Irish Rebels" },
-			{ "class": "rebelsscottish", "display": "Scottish Rebels" },
-			{ "class": "rebelsvikings", "display": "Viking Rebels" },
-			{ "class": "rebelswelsh", "display": "Welsh Rebels" }
-		    ]
-		},
-		{
-		    "title": "Separatists",
-		    "flairs": [
-			{ "class": "separatistscircenn", "display": "Circenn Separatists" },
-			{ "class": "separatistsdyflin", "display": "Dyflin Separatists" },
-			{ "class": "separatistseastengle", "display": "East Engle Separatists" },
-			{ "class": "separatistsenglish", "display": "English Separatists" },
-			{ "class": "separatistsgwined", "display": "Gwined Separatists" },
-			{ "class": "separatistsirish", "display": "Irish Separatists" },
-			{ "class": "separatistsmide", "display": "Mide Separatists" },
-			{ "class": "separatistsmierce", "display": "Mierce Separatists" },
-			{ "class": "separatistsnorthymbra", "display": "Northymbra Separatists" },
-			{ "class": "separatistsscottish", "display": "Scottish Separatists" },
-			{ "class": "separatistsstratclut", "display": "Strat Clut Separatists" },
-			{ "class": "separatistssudreyar", "display": "Sudreyar Separatists" },
-			{ "class": "separatistsvikings", "display": "Viking Separatists" },
-			{ "class": "separatistswelsh", "display": "Welsh Separatists" },
-			{ "class": "separatistswestseaxe", "display": "West Seaxe Separatists" }
-		    ]
+	},
+	"three-kingdoms": {
+		"tab-display": "Three Kingdoms",
+		"playable": {
+			"title": "Three Kingdoms",
+			"prefix": "3k",
+			"parent": "3k",
+			"flairs": [
+				{
+					"title": "Three Kingdoms",
+					"flairs": [
+						{ "class": "abandoned" },
+						{ "class": "anding" },
+						{ "class": "anping" },
+						{ "class": "ba" },
+						{ "class": "badong" },
+						{ "class": "baxi" },
+						{ "class": "beihai" },
+						{ "class": "bohai" },
+						{ "class": "caimao", "display": "Cai Mao" },
+						{ "class": "cangwu" },
+						{ "class": "caocao", "display": "Cao Cao" },
+						{ "class": "caowei", "display": "Cao Wei" },
+						{ "class": "changan" },
+						{ "class": "changsha" },
+						{ "class": "chen" },
+						{ "class": "chengdu" },
+						{ "class": "daijun" },
+						{ "class": "donghai" },
+						{ "class": "dongjun" },
+						{ "class": "donglai" },
+						{ "class": "dongou" },
+						{ "class": "dongzhuo", "display": "Dong Zhuo" },
+						{ "class": "fuling" },
+						{ "class": "gaogan", "display": "Gao Gan" },
+						{ "class": "gaoliang", "display": "Gao Liang" },
+						{ "class": "gongsundu", "display": "Gongsun Du" },
+						{ "class": "gongsunzan", "display": "Gongsun Zan" },
+						{ "class": "guangling" },
+						{ "class": "hanempire", "display": "Han Empire" },
+						{ "class": "hanfu", "display": "Han Fu" },
+						{ "class": "hansui", "display": "Han Sui" },
+						{ "class": "hanzhong" },
+						{ "class": "hedong" },
+						{ "class": "henei" },
+						{ "class": "hepu" },
+						{ "class": "huangzu", "display": "Huang Zu" },
+						{ "class": "jialong", "display": "Jia Long" },
+						{ "class": "jianan" },
+						{ "class": "jiangxia" },
+						{ "class": "jiangyang" },
+						{ "class": "jianning" },
+						{ "class": "jianye" },
+						{ "class": "jiaozhi" },
+						{ "class": "jincheng" },
+						{ "class": "jingzhou" },
+						{ "class": "kongrong", "display": "Kong Rong" },
+						{ "class": "kongzhou", "display": "Kong Zhou" },
+						{ "class": "kuaiji" },
+						{ "class": "langye" },
+						{ "class": "lei" },
+						{ "class": "lingling" },
+						{ "class": "liubei", "display": "Liu Bei" },
+						{ "class": "liubiao", "display": "Liu Biao" },
+						{ "class": "liudai", "display": "Liu Dai" },
+						{ "class": "liuhan", "display": "Liu Han" },
+						{ "class": "liuyan", "display": "Liu Yan" },
+						{ "class": "liuyao", "display": "Liu Yao" },
+						{ "class": "liuyu", "display": "Liu Yu" },
+						{ "class": "lubu", "display": "Lu Bu" },
+						{ "class": "lujiang" },
+						{ "class": "luling" },
+						{ "class": "luoyang" },
+						{ "class": "mateng", "display": "Ma Teng" },
+						{ "class": "nanhai" },
+						{ "class": "nanyang" },
+						{ "class": "penchang" },
+						{ "class": "pingyuan" },
+						{ "class": "poyang" },
+						{ "class": "princeofchangsha", "display": "Prince of Changsha" },
+						{ "class": "princeofchengdu", "display": "Prince of Chengdu" },
+						{ "class": "princeofchu", "display": "Prince of Chu" },
+						{ "class": "princeofdonghai", "display": "Prince of Donghai" },
+						{ "class": "princeofhejian", "display": "Prince of Hejian" },
+						{ "class": "princeofqi", "display": "Prince of Qi" },
+						{ "class": "princeofrunan", "display": "Prince of Ru'nan" },
+						{ "class": "princeofzhao", "display": "Prince of Zhao" },
+						{ "class": "rebels" },
+						{ "class": "runan" },
+						{ "class": "shangdang" },
+						{ "class": "shangyong" },
+						{ "class": "shixie", "display": "Shi Xie" },
+						{ "class": "shoufang" },
+						{ "class": "shuhan", "display": "Shu Han" },
+						{ "class": "sunjian", "display": "Sun Jian" },
+						{ "class": "sunwu", "display": "Sun Wu" },
+						{ "class": "taishan" },
+						{ "class": "taiyuan" },
+						{ "class": "taoqian", "display": "Tao Qian" },
+						{ "class": "tongan", "display": "Tong'an" },
+						{ "class": "wangkuang", "display": "Wang Kuang" },
+						{ "class": "wanglang", "display": "Wang Lang" },
+						{ "class": "weijun" },
+						{ "class": "whitetigeryan", "display": "White Tiger Yan" },
+						{ "class": "wu" },
+						{ "class": "wudu" },
+						{ "class": "wuling" },
+						{ "class": "wuwei" },
+						{ "class": "xiangyang" },
+						{ "class": "xihe" },
+						{ "class": "xindu" },
+						{ "class": "yangzhou" },
+						{ "class": "yanmen" },
+						{ "class": "ye" },
+						{ "class": "yellowturbananding", "display": "Yellow Turban Anding" },
+						{ "class": "yellowturbanrebels", "display": "Yellow Turban Rebels" },
+						{ "class": "yellowturbantaishan", "display": "Yellow Turban Taishan" },
+						{ "class": "yingchuan" },
+						{ "class": "yizhou" },
+						{ "class": "youbeiping" },
+						{ "class": "youzhou" },
+						{ "class": "yu" },
+						{ "class": "yuanshao", "display": "Yuan Shao" },
+						{ "class": "yuanshu", "display": "Yuan Shu" },
+						{ "class": "yulin" },
+						{ "class": "yuzhang" },
+						{ "class": "zairong", "display": "Zai Rong" },
+						{ "class": "zangke" },
+						{ "class": "zhangchao", "display": "Zhang Chao" },
+						{ "class": "zhanglu", "display": "Zhang Lu" },
+						{ "class": "zhangyan", "display": "Zhang Yan" },
+						{ "class": "zhangyang", "display": "Zhang Yang" },
+						{ "class": "zhengjiang", "display": "Zheng Jiang" },
+						{ "class": "zhongshan" }
+					]
+				}
+			]
 		}
-	    ]
-	}
+	},
+    "thrones-of-britannia": {
+		"tab-display": "Thrones of Britannia",
+		"playable": {
+			"title": "Thrones of Britannia",
+			"prefix": "tob",
+			"parent": "tob",
+			"flairs": [
+			{
+				"title": "Playable",
+				"flairs": [
+					{ "class": "circenn" },
+					{ "class": "dyflin" },
+					{ "class": "eastengle", "display": "East Engle" },
+					{ "class": "gwined" },
+					{ "class": "mide" },
+					{ "class": "mierce" },
+					{ "class": "northymbre" },
+					{ "class": "stratclut", "display": "Strat Clut" },
+					{ "class": "sudreyar" },
+					{ "class": "westseaxe", "display": "West Seaxe" }
+				]
+			},
+			{
+				"title": "Non-Playable",
+				"flairs": [
+					{ "class": "ailigh" },
+					{ "class": "airergoidel" },
+					{ "class": "airgialla" },
+					{ "class": "athfochla" },
+					{ "class": "bedeborg" },
+					{ "class": "brechinauc" },
+					{ "class": "bregh" },
+					{ "class": "breifne" },
+					{ "class": "caisil" },
+					{ "class": "cent" },
+					{ "class": "connacht" },
+					{ "class": "cornwalas" },
+					{ "class": "cumbra" },
+					{ "class": "defena" },
+					{ "class": "dene" },
+					{ "class": "desmuma" },
+					{ "class": "djurby" },
+					{ "class": "dornsaete" },
+					{ "class": "dubgaill" },
+					{ "class": "dyfet" },
+					{ "class": "eastsexa", "display": "East Sexa" },
+					{ "class": "finngaill" },
+					{ "class": "gallgoidel" },
+					{ "class": "gliwissig" },
+					{ "class": "grantabru" },
+					{ "class": "gwent" },
+					{ "class": "haeden" },
+					{ "class": "heimiliborg" },
+					{ "class": "hellirborg" },
+					{ "class": "hlymrekr" },
+					{ "class": "holdrness" },
+					{ "class": "hwicce" },
+					{ "class": "hyrlborg" },
+					{ "class": "iarmuma" },
+					{ "class": "jorvik" },
+					{ "class": "laigen" },
+					{ "class": "ledeborg" },
+					{ "class": "moreb" },
+					{ "class": "myrrborg" },
+					{ "class": "narenna" },
+					{ "class": "nordmann" },
+					{ "class": "normaunds" },
+					{ "class": "norse" },
+					{ "class": "northsexa" },
+					{ "class": "orkneyar" },
+					{ "class": "osraighi" },
+					{ "class": "powis" },
+					{ "class": "seisilwig" },
+					{ "class": "steinnborg" },
+					{ "class": "suthsexa" },
+					{ "class": "tuadmuma" },
+					{ "class": "uladh" },
+					{ "class": "vedrafjordr" },
+					{ "class": "veidrborg" },
+					{ "class": "veisafjordr" },
+					{ "class": "vikings" },
+					{ "class": "westmoringas" }
+				]
+			},
+			{
+				"title": "Rebels",
+				"flairs": [
+					{ "class": "rebelsenglish", "display": "English Rebels" },
+					{ "class": "rebelsirish", "display": "Irish Rebels" },
+					{ "class": "rebelsscottish", "display": "Scottish Rebels" },
+					{ "class": "rebelsvikings", "display": "Viking Rebels" },
+					{ "class": "rebelswelsh", "display": "Welsh Rebels" }
+				]
+			},
+			{
+				"title": "Separatists",
+				"flairs": [
+					{ "class": "separatistscircenn", "display": "Circenn Separatists" },
+					{ "class": "separatistsdyflin", "display": "Dyflin Separatists" },
+					{ "class": "separatistseastengle", "display": "East Engle Separatists" },
+					{ "class": "separatistsenglish", "display": "English Separatists" },
+					{ "class": "separatistsgwined", "display": "Gwined Separatists" },
+					{ "class": "separatistsirish", "display": "Irish Separatists" },
+					{ "class": "separatistsmide", "display": "Mide Separatists" },
+					{ "class": "separatistsmierce", "display": "Mierce Separatists" },
+					{ "class": "separatistsnorthymbra", "display": "Northymbra Separatists" },
+					{ "class": "separatistsscottish", "display": "Scottish Separatists" },
+					{ "class": "separatistsstratclut", "display": "Strat Clut Separatists" },
+					{ "class": "separatistssudreyar", "display": "Sudreyar Separatists" },
+					{ "class": "separatistsvikings", "display": "Viking Separatists" },
+					{ "class": "separatistswelsh", "display": "Welsh Separatists" },
+					{ "class": "separatistswestseaxe", "display": "West Seaxe Separatists" }
+				]
+			}
+			]
+		}
     },
     "warhammer-2": {
         "tab-display": "Warhammer II",
@@ -188,10 +326,24 @@
                         { "class": "torelasor", "display": "Tor Elasor" },
                         { "class": "yvresse" }
                     ]
-                },
+				},
+				{
+					"title": "Greenskins",
+					"flairs": [
+						{ "class": "bonetrattlaz" },
+						{ "class": "brokenaxe", "display": "Broken Axe" },
+						{ "class": "redcloud", "display": "Red Cloud" },
+						{ "class": "skullcrag", "display": "Skull Crag" }
+					]
+				},
                 {
                     "title": "Lizardmen",
                     "flairs": [
+						{ "class": "Avengers" },
+						{ "class": "defendersofthegreatplan", "display": "Defenders of the Great Plan" },
+						{ "class": "itzitzatribe", "display": "Itz Itza Tribe" },
+						{ "class": "spiritofthejungle", "display": "Spirit of the Jungle" },
+						{ "class": "zlatlan" },
                         { "class": "hexoatl" },
                         { "class": "itza" },
                         { "class": "lastdefenders", "display": "Last Defenders" },
@@ -202,10 +354,33 @@
                         { "class": "teotiqua" },
                         { "class": "tlaqua" },
                         { "class": "tlaxtlan" },
-                        { "class": "xlanhuapec" },
-                        { "class": "zlatlan" }
+                        { "class": "xlanhuapec" }
                     ]
-                },
+				},
+				{
+					"title": "Vampire Coast",
+					"flairs": [
+						{ "class": "bleakcoastbuccaneers", "display": "Bleak Coast Buccaneers" },
+						{ "class": "boyzoftheforbiddencoast", "display": "Boyz of the Forbidden Coast" },
+						{ "class": "dreadfleetseparatists", "display": "Dreadfleet Separatists" },
+						{ "class": "freebootersofportroyale", "display": "Freebooters of Port Royale" },
+						{ "class": "greypointscuttlers", "display": "Grey Point Scuttlers" },
+						{ "class": "middleseabrigands", "display": "Middle Sea Brigands" },
+						{ "class": "piratesofsartosa", "display": "Pirates of Sartosa" },
+						{ "class": "piratesofsartosaseparatists", "display": "Pirates of Sartosa Separatists" },
+						{ "class": "sharkstraightseadogs", "display": "Shark Straight Seadogs" },
+						{ "class": "terrorsofthedarkstraights", "display": "Terrors of the Dark Straights" },
+						{ "class": "theawakened", "display": "The Awakened" },
+						{ "class": "thechurninggulfraiders", "display": "The Curning Gulf Raiders" },
+						{ "class": "thedreadfleet", "display": "The Dreadfleet" },
+						{ "class": "thedrowned", "display": "The Drowned" },
+						{ "class": "thedrownedseparatists", "display": "The Drowned Separatists" },
+						{ "class": "vampirecoastmutineers", "display": "Vampire Coast Mutineers" },
+						{ "class": "vampirecoastrebels", "display": "Vampire Coast Rebels" },
+						{ "class": "vampirecoastseparatists", "display": "Vampire Coast Separatists" },
+                        { "class": "vampirecoast", "display": "Vampire Coast" }
+					]
+				}
                 {
                     "title": "Skaven",
                     "flairs": [
@@ -318,9 +493,10 @@
                 {
                     "title": "The Empire",
                     "flairs": [
-                        { "class": "sudenburg" },
+						{ "class": "thehuntsmarshalsexpedition", "display": "The Huntsmarshal's Expedition" },
                         { "class": "newworldcolonies", "display": "New World Colonies" },
-                        { "class": "piratesofsartosa", "display": "Pirates of Sartosa" }
+                        { "class": "piratesofsartosa", "display": "Pirates of Sartosa" },
+                        { "class": "sudenburg" }
                     ]
                 },
                 {
@@ -328,8 +504,7 @@
                     "flairs": [
                         { "class": "necrarchbrotherhood", "display": "Necrarch Brotherhood" },
                         { "class": "strygosempire", "display": "Strygos Empire" },
-                        { "class": "thesilverhost", "display": "The Silver Host" },
-                        { "class": "vampirecoast", "display": "Vampire Coast" }
+                        { "class": "thesilverhost", "display": "The Silver Host" }
                     ]
                 },
                 {
@@ -344,7 +519,8 @@
                 {
                     "title": "Wood Elves",
                     "flairs": [
-                        { "class": "bowmenoforeon", "display": "Bowmen of Oreon" }
+						{ "class": "bowmenoforeon", "display": "Bowmen of Oreon" },
+						{ "class": "laurelornforest", "display": "Laurelorn Forest" }
                     ]
                 }
             ]
@@ -632,6 +808,19 @@
             "prefix": "r2",
             "parent": "r2",
             "flairs": [
+				{
+					"title": "Rise of the Republic",
+					"flairs": [
+						{ "class": "insubres" },
+						{ "class": "lolei" },
+						{ "class": "rome" },
+						{ "class": "samnites" },
+						{ "class": "senones" },
+						{ "class": "taras" },
+						{ "class": "tarchuna" },
+						{ "class": "veneti" }
+					]
+				},
                 {
                     "title": "Caesar in Gaul",
                     "flairs": [
@@ -1229,7 +1418,7 @@
                         { "class": "rebels" },
                         { "class": "timurids" }
                     ]
-                }       
+                }
             ]
         },
         "kingdoms": {
