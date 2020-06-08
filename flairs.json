@@ -380,7 +380,7 @@
 						{ "class": "vampirecoastseparatists", "display": "Vampire Coast Separatists" },
                         { "class": "vampirecoast", "display": "Vampire Coast" }
 					]
-				}
+				},
                 {
                     "title": "Skaven",
                     "flairs": [
